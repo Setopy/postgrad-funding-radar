@@ -24,7 +24,7 @@ Verified funding for students already enrolled in a Master's or PhD (research st
 
 1. New project (choose a region close to most users, e.g. Europe West for Africa).
 2. SQL Editor → paste `supabase/schema.sql` → Run.
-3. Project Settings → API → copy the Project URL and the `anon` public key into `site/config.js`.
+3. Project Settings → API → copy the Project URL and the publishable key into `site/config.js` (already done for project `zikclaxuyzdwhmvcnghq`, Europe).
 
 ## Local tasks
 
