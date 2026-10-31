@@ -3,7 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Postgrad Funding Radar</title>
+<title>Scholarship Radar | Scholarships and Postgrad Funding</title>
+<meta name="description" content="Scholarship Radar: verified scholarships, postdocs and in-programme funding for Master's and PhD students, with priority for students from developing countries.">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0b1a30">
+<meta property="og:site_name" content="Scholarship Radar">
+<meta property="og:title" content="Scholarship Radar | Scholarships and Postgrad Funding">
+<meta property="og:description" content="Verified scholarships, postdocs and funding for research stays and conferences. Checked on the funder's own page.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://postgrad-funding-radar.pages.dev/">
+<meta property="og:image" content="https://postgrad-funding-radar.pages.dev/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -44,6 +58,9 @@ header.top{border-bottom:1px solid var(--line);background:var(--card)}
 .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:18px}
 .brand small{font-family:var(--body);font-weight:500;color:var(--muted);font-size:13px}
+.brand{text-decoration:none;color:inherit}
+.brand img{width:40px;height:40px;border-radius:10px;display:block;flex:none}
+.brand .bt{display:flex;flex-direction:column;line-height:1.15}
 nav.tabs{display:flex;gap:4px;flex-wrap:wrap}
 nav.tabs a{padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--muted);font-weight:500}
 nav.tabs a[aria-current="page"]{background:var(--signal-soft);color:var(--ink)}
@@ -170,7 +187,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-s
 <body>
 <header class="top">
   <div class="wrap topbar">
-    <div class="brand">Scholarship Radar <small>· Postgrad Funding</small></div>
+    <a class="brand" href="#find" aria-label="Scholarship Radar home"><img src="img/logo-mark.png" alt="" width="40" height="40"><span class="bt">Scholarship Radar <small>Scholarships · Postgrad Funding</small></span></a>
     <nav class="tabs" aria-label="Sections">
       <a href="#find" data-view="find">Find funding</a>
       <a href="#scholarships" data-view="scholarships">Scholarships</a>
@@ -377,7 +394,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-s
 <div class="toast" id="toast" role="status"></div>
 <script src="config.js"></script>
 
-<footer><div class="wrap">Scholarship Radar · Postgrad Funding prototype. Always confirm details on the funder's official page before applying. Never pay anyone to apply for a grant. <a href="privacy.html">Privacy notice</a></div></footer>
+<footer><div class="wrap">Scholarship Radar: Scholarships and Postgrad Funding. Always confirm details on the funder's official page before applying. Never pay anyone to apply for a grant. <a href="privacy.html">Privacy notice</a></div></footer>
 
 <script>
 (function(){
