@@ -59,6 +59,33 @@ nav.tabs a:focus-visible, button:focus-visible, select:focus-visible, input:focu
 .dial{margin-bottom:34px}
 .dial .cap{position:absolute;left:0;right:0;bottom:-36px;text-align:center;font-size:12px;color:var(--muted)}
 main{padding-bottom:60px}
+/* Featured today: Scholarship Radar card style (fixed brand palette in both themes) */
+.feat{--fn:#081630;--fn2:#0e264e;--ft:#20d6b4;--fw:#ffffff;--fm:#aabad6;--fa:#ffc43d;--fr:#ff6b6b;
+  position:relative;overflow:hidden;border-radius:16px;margin-top:18px;padding:28px 28px 24px;color:var(--fw);
+  background:linear-gradient(180deg,var(--fn),var(--fn2));display:grid;grid-template-columns:1.25fr .9fr;gap:22px 34px;color-scheme:dark}
+.feat .rings{position:absolute;right:-140px;top:-160px;width:520px;height:520px;pointer-events:none}
+.feat .wm{font:700 15px/1.15 var(--display);letter-spacing:.06em}
+.feat .wm span{display:block;color:var(--ft)}
+.feat .wm i{display:block;width:34px;height:3px;background:var(--ft);margin-top:7px}
+.feat .tag{font:600 12px var(--body);letter-spacing:.08em;color:var(--fm);margin-top:14px;text-transform:uppercase}
+.feat .badge{display:inline-flex;align-items:center;gap:8px;background:var(--ft);color:var(--fn);font:700 12.5px var(--body);letter-spacing:.05em;padding:6px 14px 6px 10px;border-radius:999px;margin-top:16px}
+.feat h2{font:700 clamp(24px,3.2vw,34px)/1.12 var(--display);margin:14px 0 6px;color:var(--fw);position:relative}
+.feat .prov{color:var(--fm);font-size:15px;position:relative}
+.feat .rows{display:grid;gap:12px;align-content:start;position:relative;padding-top:4px}
+.feat .row b{display:flex;align-items:center;gap:8px;color:var(--ft);font:700 12px var(--body);letter-spacing:.07em;text-transform:uppercase}
+.feat .row b::before{content:"";width:4px;height:13px;background:var(--ft)}
+.feat .row div{margin:2px 0 0 12px;font-size:15.5px;color:var(--fw)}
+.feat .dl{border:2px solid var(--fc,var(--ft));border-radius:14px;padding:14px 18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:flex-start;position:relative}
+.feat .dl small{display:block;color:var(--fc,var(--ft));font:700 12px var(--body);letter-spacing:.07em}
+.feat .dl strong{display:block;font:700 24px/1.2 var(--display);color:var(--fw);margin-top:4px}
+.feat .dl em{display:block;font-style:normal;color:var(--fm);font-size:13px;margin-top:4px}
+.feat .dl .left{color:var(--fc,var(--ft));font:700 15px var(--body);white-space:nowrap}
+.feat .acts{grid-column:1/-1;display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:#fff;border-radius:14px;padding:12px 14px;position:relative}
+.feat .acts .btn{border-color:#d5dbe6;color:var(--fn);background:#fff}
+.feat .acts .btn.go{background:var(--fn);color:#fff;border-color:var(--fn)}
+.feat .acts .btn.wa{background:#128c76;color:#fff;border-color:#128c76}
+.feat .acts .why{color:#3c5070;font-size:13px;margin-left:auto}
+@media (max-width:900px){.feat .rings{right:-230px;top:-330px;opacity:.7}.feat{grid-template-columns:1fr;padding:22px 18px}.feat .acts .why{margin-left:0;width:100%}}
 .view{display:none}.view.on{display:block}
 .layout{display:grid;grid-template-columns:300px 1fr;gap:24px;margin-top:18px;align-items:start}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
@@ -155,6 +182,29 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-s
     <div class="dial" aria-label="Radar of application windows by month">
       <canvas id="radar" width="680" height="680"></canvas>
       <div class="cap">Each dot is a programme, placed at the month it usually opens. The sweep shows today.</div>
+    </div>
+  </section>
+
+  <section class="feat" id="feat" aria-labelledby="feat-title" hidden>
+    <svg class="rings" viewBox="0 0 520 520" aria-hidden="true"><g fill="none" stroke="#20d6b4" stroke-opacity=".18" stroke-width="2"><circle cx="260" cy="260" r="70"/><circle cx="260" cy="260" r="140"/><circle cx="260" cy="260" r="210"/><circle cx="260" cy="260" r="258"/></g><path d="M260 260 L22 330 A250 250 0 0 1 40 150 Z" fill="#20d6b4" fill-opacity=".09"/><circle cx="260" cy="260" r="9" fill="#20d6b4"/></svg>
+    <div>
+      <div class="wm">SCHOLARSHIP<span>RADAR</span><i></i></div>
+      <div class="tag">Featured today · Postgrad funding</div>
+      <div class="badge"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8.5l4 4 8-9" fill="none" stroke="#081630" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span id="feat-ver">VERIFIED</span></div>
+      <h2 id="feat-title"></h2>
+      <div class="prov" id="feat-prov"></div>
+    </div>
+    <div class="rows">
+      <div class="row"><b>Level</b><div id="feat-level"></div></div>
+      <div class="row"><b>Funding</b><div id="feat-fund"></div></div>
+      <div class="row"><b>Who can apply</b><div id="feat-who"></div></div>
+      <div class="dl" id="feat-dl"><div><small id="feat-dl-lab">DEADLINE</small><strong id="feat-dl-val"></strong><em id="feat-dl-note"></em></div><div class="left" id="feat-left"></div></div>
+    </div>
+    <div class="acts">
+      <a class="btn go" id="feat-go" href="#" rel="noopener">Official page</a>
+      <button class="btn" type="button" id="feat-save">Save to tracker</button>
+      <a class="btn wa" id="feat-share" href="#" rel="noopener">Share on WhatsApp</a>
+      <span class="why" id="feat-why"></span>
     </div>
   </section>
 
@@ -447,7 +497,7 @@ function render(){
     '<div class="stat"><b class="mono">'+yes+'</b><span>you look eligible for</span></div>'+
     '<div class="stat"><b class="mono">'+chk+'</b><span>need a country-list check</span></div>'+
     '<div class="stat"><b class="mono">'+openNow+'</b><span>open or rolling now</span></div>';
-  renderCalendar(p); renderTracker(p); renderKits(p); drawRadar(p);
+  renderCalendar(p); renderTracker(p); renderKits(p); drawRadar(p); renderFeatured();
 }
 
 function renderCalendar(p){
@@ -607,6 +657,53 @@ $("wl").addEventListener("submit",function(e){e.preventDefault(); var msg=$("wl-
     function(){ msg.textContent="Couldn't save right now. Please try again in a minute."; });
 });
 
+
+// ---------- featured today ----------
+var MONTHS_LONG=["January","February","March","April","May","June","July","August","September","October","November","December"];
+function isoToday(){var t=TODAY;return t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");}
+function longDate(iso){var p=iso.split("-");return Number(p[2])+" "+MONTHS_LONG[Number(p[1])-1]+" "+p[0];}
+function shortDate(iso){var p=iso.split("-");return (Number(p[2])+" "+MONTHS[Number(p[1])-1]+" "+p[0]).toUpperCase();}
+function whoLine(o){ if(o.nat_rule&&o.nat_rule.note) return o.nat_rule.note;
+  return {any:"Any nationality",developing:"Nationals of developing countries",region:"Regional programme",list:"Listed countries only"}[o.nat_rule&&o.nat_rule.type]||"See official page"; }
+function clip(t,n){t=String(t||"");return t.length>n?t.slice(0,n-1).replace(/[\s,;:]+\S*$/,"")+"…":t;}
+function featuredCandidates(){ return state.data.filter(function(o){ if(o.verification!=="official"||!o.url) return false;
+    if(o.status==="paused"||o.status==="closed") return false;
+    if(o.next_deadline && daysTo(o.next_deadline)<0) return false; return true; })
+  .sort(function(a,b){ return (b.dev_priority?1:0)-(a.dev_priority?1:0) || a.id.localeCompare(b.id); }); }
+function pickFeatured(){
+  var f=state.featured, today=isoToday();
+  if(f && f.id && f.date){ var age=(new Date(today)-new Date(f.date))/864e5; var o=state.data.filter(function(x){return x.id===f.id;})[0];
+    if(o && age>=0 && age<=1 && !(o.next_deadline && daysTo(o.next_deadline)<0)) return {o:o,f:f}; }
+  var c=featuredCandidates(); if(!c.length) return null;
+  var urgent=c.filter(function(o){return o.next_deadline && daysTo(o.next_deadline)>=0 && daysTo(o.next_deadline)<=21;});
+  var dayN=Math.floor(new Date(today)/864e5);
+  var o = urgent.length && dayN%2===0 ? urgent[dayN%urgent.length] : c[dayN%c.length];
+  return {o:o,f:{date:today,id:o.id}};
+}
+function renderFeatured(){
+  if(!state.data) return; var pk=pickFeatured(), el=$("feat"); if(!pk){el.hidden=true;return;}
+  var o=pk.o, f=pk.f||{}; el.hidden=false;
+  $("feat-ver").textContent="VERIFIED "+shortDate(o.checked);
+  $("feat-title").textContent=f.title||o.name;
+  $("feat-prov").textContent=o.provider+" • "+o.host;
+  $("feat-level").textContent=o.levels.map(function(l){return l==="PhD"?"PhD":"Master's";}).join(" and ")+(o.fields.indexOf("all")>=0?", all fields":", "+o.fields.join(", "));
+  $("feat-fund").textContent=f.funding||clip(o.amount,90);
+  $("feat-who").textContent=f.who||clip(whoLine(o),90);
+  var col="var(--ft)", lab="DEADLINE", val, note="", left="";
+  if(o.next_deadline){ var d=daysTo(o.next_deadline); val=longDate(o.next_deadline); left=d<=0?"Last day":d===1?"1 day left":d+" days left";
+    col=d<=14?"var(--fr)":d<=30?"var(--fa)":"var(--ft)"; note=f.deadline_note||""; }
+  else if(o.status==="rolling"){ lab="APPLY"; val="Any time"; note="Rolling applications"; }
+  else { lab="USUALLY OPENS"; val=o.months.length?MONTHS_LONG[o.months[0]-1]+(o.months.length>1?" – "+MONTHS_LONG[o.months[o.months.length-1]-1]:""):"Check official page";
+    note=o.status==="open"?"Open now: deadline depends on your country":"Prepare now: this call returns every year"; col=o.status==="open"?"var(--fa)":"var(--ft)"; }
+  $("feat-dl").style.setProperty("--fc",col); $("feat-dl-lab").textContent=lab; $("feat-dl-val").textContent=val; $("feat-dl-note").textContent=note; $("feat-left").textContent=left;
+  $("feat-go").href=o.url;
+  $("feat-save").dataset.track=o.id; $("feat-save").textContent=state.tracker[o.id]?"Saved ✓":"Save to tracker";
+  var site=location.origin+location.pathname;
+  var msg="Postgrad funding pick of the day:\n"+o.name+"\n"+(o.next_deadline?"Deadline: "+longDate(o.next_deadline)+"\n":"")+"Check if you're eligible: "+site;
+  $("feat-share").href="https://wa.me/?text="+encodeURIComponent(msg);
+  var m=match(o,profile()); $("feat-why").textContent=m.res==="yes"?"Matches your profile":m.res==="check"?"Check the country list for your profile":"Not a match for your profile, share it with someone it fits";
+}
+
 // ---------- routing ----------
 function route(){var h=(location.hash||"#find").slice(1); if(["find","calendar","tracker","kits","plans","trust"].indexOf(h)<0) h="find";
   Array.prototype.forEach.call(document.querySelectorAll(".view"),function(v){v.classList.toggle("on",v.id==="v-"+h);});
@@ -619,6 +716,7 @@ function useData(d, fromDb){ state.data=d.opportunities; state.meta=d.meta||stat
   $("data-note").innerHTML = ''; render(); renderTrust(state.qa); }
 fetch("data/opportunities.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(d){ useData(d,false); })
   .catch(function(){ $("cards").innerHTML='<div class="panel empty">Listings could not load. Refresh the page to try again.</div>'; });
+fetch("data/featured.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).then(function(f){ if(f){ state.featured=f; renderFeatured(); } }).catch(function(){});
 fetch("data/qa.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(q){ if(q && q.date){ state.qa=q; if(state.data) renderTrust(q);} }).catch(function(){});
 })();
 </script>

@@ -49,6 +49,14 @@ def main():
         if o.get("verification") == "official" and not url: errors.append(f"{tag}: official listing needs a url")
         try: datetime.date.fromisoformat(o.get("checked",""))
         except ValueError: errors.append(f"{tag}: checked not YYYY-MM-DD")
+    fp = os.path.join(ROOT, "site", "data", "featured.json")
+    if os.path.exists(fp):
+        try:
+            f = json.load(open(fp, encoding="utf-8"))
+            if f.get("id") and f["id"] not in seen: errors.append(f"featured.json: id '{f['id']}' is not in the listings")
+            if f.get("date"): datetime.date.fromisoformat(f["date"])
+        except Exception as e:
+            errors.append(f"featured.json invalid: {e}")
     if errors:
         print(f"FAIL: {len(errors)} problem(s)"); print("\n".join(errors[:100])); return 1
     print(f"OK: {len(ops)} listings valid")
