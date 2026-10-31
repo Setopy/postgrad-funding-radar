@@ -57,6 +57,20 @@ def main():
             if f.get("date"): datetime.date.fromisoformat(f["date"])
         except Exception as e:
             errors.append(f"featured.json invalid: {e}")
+    sp = os.path.join(ROOT, "site", "data", "scholarships.json")
+    if os.path.exists(sp):
+        try:
+            sd = json.load(open(sp, encoding="utf-8"))
+            for i, p in enumerate(sd.get("posts", [])):
+                for k in ("date", "title", "provider", "destination", "level", "funding", "eligible", "deadline"):
+                    if not p.get(k): errors.append(f"scholarships.json post {i}: missing {k}")
+                for k in ("date", "deadline", "verified_on"):
+                    if p.get(k): datetime.date.fromisoformat(p[k])
+                if "apply_url" in p or "http" in json.dumps({k: v for k, v in p.items()}):
+                    errors.append(f"scholarships.json post {i}: application links must stay in the WhatsApp Channel, not on the site")
+            if len(sd.get("posts", [])) > 120: errors.append("scholarships.json: keep at most 120 posts")
+        except Exception as e:
+            errors.append(f"scholarships.json invalid: {e}")
     if errors:
         print(f"FAIL: {len(errors)} problem(s)"); print("\n".join(errors[:100])); return 1
     print(f"OK: {len(ops)} listings valid")

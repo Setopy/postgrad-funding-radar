@@ -86,6 +86,16 @@ main{padding-bottom:60px}
 .feat .acts .btn.wa{background:#128c76;color:#fff;border-color:#128c76}
 .feat .acts .why{color:#3c5070;font-size:13px;margin-left:auto;background:none;padding:0;border-radius:0}
 @media (max-width:900px){.feat .rings{right:-230px;top:-330px;opacity:.7}.feat{grid-template-columns:1fr;padding:22px 18px}.feat .acts .why{margin-left:0;width:100%}}
+.sch-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:14px}
+.sch{background:linear-gradient(180deg,#081630,#0e264e);color:#fff;border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:8px;color-scheme:dark}
+.sch .k{color:#20d6b4;font:700 11.5px var(--body);letter-spacing:.08em}
+.sch h3{color:#fff;font-size:17px}
+.sch .p{color:#aabad6;font-size:13px}
+.sch .f{font-size:13.5px}
+.sch .d{margin-top:auto;border:2px solid var(--fc,#20d6b4);border-radius:10px;padding:8px 12px;display:flex;justify-content:space-between;gap:8px;font-size:13.5px}
+.sch .d b{color:var(--fc,#20d6b4)}
+.feat .acts .chan{color:#081630;font:700 13px var(--body);letter-spacing:.04em}
+body:not([data-view="find"]) #feat{display:none}
 .view{display:none}.view.on{display:block}
 .layout{display:grid;grid-template-columns:300px 1fr;gap:24px;margin-top:18px;align-items:start}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
@@ -153,7 +163,7 @@ table.simple th,table.simple td{border-bottom:1px solid var(--line);padding:7px 
 .toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:9px 14px;border-radius:8px;font-size:13.5px;display:none;z-index:20}
 .toast.on{display:block}
 footer{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-size:12.5px}
-@media (max-width:900px){.hero{grid-template-columns:1fr}.layout{grid-template-columns:1fr}.profile{position:static}.grid2{grid-template-columns:1fr}.dial{max-width:260px}}
+@media (max-width:900px){.dial{margin-bottom:60px}.dial .cap{bottom:-58px}.hero{grid-template-columns:1fr}.layout{grid-template-columns:1fr}.profile{position:static}.grid2{grid-template-columns:1fr}.dial{max-width:260px}}
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
@@ -163,6 +173,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-s
     <div class="brand">Scholarship Radar <small>· Postgrad Funding</small></div>
     <nav class="tabs" aria-label="Sections">
       <a href="#find" data-view="find">Find funding</a>
+      <a href="#scholarships" data-view="scholarships">Scholarships</a>
       <a href="#calendar" data-view="calendar">Deadline calendar</a>
       <a href="#tracker" data-view="tracker">My tracker</a>
       <a href="#kits" data-view="kits">Application kits</a>
@@ -245,6 +256,15 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-s
         <div class="cards" id="cards"></div>
       </div>
     </div>
+  </section>
+
+  <!-- SCHOLARSHIPS -->
+  <section class="view" id="v-scholarships">
+    <div style="margin-top:18px"><h2>Scholarship Radar</h2>
+      <p class="hint" style="max-width:70ch">One verified scholarship at a time, checked on the official page before it is posted. Application links are shared inside our free WhatsApp Channel.</p></div>
+    <div id="sch-latest"></div>
+    <h3 style="margin-top:22px">Still open</h3>
+    <div class="sch-list" id="sch-list"></div>
   </section>
 
   <!-- CALENDAR -->
@@ -704,8 +724,34 @@ function renderFeatured(){
   var m=match(o,profile()); $("feat-why").textContent=m.res==="yes"?"Matches your profile":m.res==="check"?"Check the country list for your profile":"Not a match for your profile, share it with someone it fits";
 }
 
+
+// ---------- scholarship radar posts ----------
+function schDays(iso){return daysTo(iso);}
+function schColor(d){return d<=14?"#ff6b6b":d<=30?"#ffc43d":"#20d6b4";}
+function renderScholarships(){
+  var data=state.sch; if(!data){return;}
+  var chan=data.channel||CHANNEL, posts=(data.posts||[]).filter(function(p){return p.deadline && schDays(p.deadline)>=0;});
+  if(!posts.length){ $("sch-latest").innerHTML='<div class="panel empty">No open posts right now. Join the Channel for the next one.</div>'; $("sch-list").innerHTML=""; return; }
+  var p=posts[0], d=schDays(p.deadline), col=schColor(d), left=d<=0?"Last day":d===1?"1 day left":d+" days left";
+  var site=location.origin+location.pathname+"#scholarships";
+  var msg="Scholarship Radar: "+p.title+"\nDeadline: "+longDate(p.deadline)+"\nApplication link on the free WhatsApp Channel: "+chan+"\nMore: "+site;
+  $("sch-latest").innerHTML='<section class="feat" aria-label="Latest scholarship">'+
+   '<svg class="rings" viewBox="0 0 520 520" aria-hidden="true"><g fill="none" stroke="#20d6b4" stroke-opacity=".18" stroke-width="2"><circle cx="260" cy="260" r="70"/><circle cx="260" cy="260" r="140"/><circle cx="260" cy="260" r="210"/><circle cx="260" cy="260" r="258"/></g><path d="M260 260 L22 330 A250 250 0 0 1 40 150 Z" fill="#20d6b4" fill-opacity=".09"/><circle cx="260" cy="260" r="9" fill="#20d6b4"/></svg>'+
+   '<div><div class="wm">SCHOLARSHIP<span>RADAR</span><i></i></div><div class="tag">Latest scholarship · posted '+esc(longDate(p.date))+'</div>'+
+   '<div class="badge"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8.5l4 4 8-9" fill="none" stroke="#081630" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>VERIFIED '+esc(shortDate(p.verified_on||p.date))+'</div>'+
+   '<h2>'+esc(p.title)+'</h2><div class="prov">'+esc(p.provider)+' • '+esc(p.destination)+'</div></div>'+
+   '<div class="rows"><div class="row"><b>Level</b><div>'+esc(p.level)+'</div></div><div class="row"><b>Funding</b><div>'+esc(p.funding)+'</div></div><div class="row"><b>Who can apply</b><div>'+esc(p.eligible)+'</div></div>'+
+   '<div class="dl" style="--fc:'+col+'"><div><small>DEADLINE</small><strong>'+esc(longDate(p.deadline))+'</strong>'+(p.deadline_note?'<em>'+esc(p.deadline_note)+'</em>':'')+'</div><div class="left">'+left+'</div></div></div>'+
+   '<div class="acts"><span class="chan">APPLICATION LINK INSIDE OUR CHANNEL</span><a class="btn go" href="'+esc(chan)+'" rel="noopener">Join free on WhatsApp</a><a class="btn wa" href="https://wa.me/?text='+encodeURIComponent(msg)+'" rel="noopener">Share</a></div></section>';
+  $("sch-list").innerHTML=posts.slice(1).map(function(q){var dd=schDays(q.deadline);var c=schColor(dd);
+    return '<article class="sch"><div class="k">VERIFIED '+esc(shortDate(q.verified_on||q.date))+'</div><h3>'+esc(q.title)+'</h3><div class="p">'+esc(q.provider)+' • '+esc(q.destination)+'</div>'+
+      '<div class="f"><b style="color:#20d6b4">Level</b> '+esc(q.level)+'<br><b style="color:#20d6b4">Funding</b> '+esc(q.funding)+'<br><b style="color:#20d6b4">Who</b> '+esc(q.eligible)+'</div>'+
+      '<div class="d" style="--fc:'+c+'"><span>Deadline '+esc(longDate(q.deadline))+'</span><b>'+(dd<=0?"Last day":dd+" days")+'</b></div>'+
+      '<a class="btn small" style="align-self:flex-start;background:#fff;color:#081630" href="'+esc(chan)+'" rel="noopener">Application link in the Channel</a></article>';}).join("") || '<p class="hint">Only the latest post is open right now.</p>';
+}
+
 // ---------- routing ----------
-function route(){var h=(location.hash||"#find").slice(1); if(["find","calendar","tracker","kits","plans","trust"].indexOf(h)<0) h="find";
+function route(){var h=(location.hash||"#find").slice(1); if(["find","scholarships","calendar","tracker","kits","plans","trust"].indexOf(h)<0) h="find"; document.body.setAttribute("data-view",h);
   Array.prototype.forEach.call(document.querySelectorAll(".view"),function(v){v.classList.toggle("on",v.id==="v-"+h);});
   Array.prototype.forEach.call(document.querySelectorAll("nav.tabs a"),function(a){if(a.dataset.view===h) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");});}
 window.addEventListener("hashchange",route); route();
@@ -717,6 +763,7 @@ function useData(d, fromDb){ state.data=d.opportunities; state.meta=d.meta||stat
 fetch("data/opportunities.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(d){ useData(d,false); })
   .catch(function(){ $("cards").innerHTML='<div class="panel empty">Listings could not load. Refresh the page to try again.</div>'; });
 fetch("data/featured.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).then(function(f){ if(f){ state.featured=f; renderFeatured(); } }).catch(function(){});
+fetch("data/scholarships.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).then(function(d){ if(d){ state.sch=d; renderScholarships(); } }).catch(function(){});
 fetch("data/qa.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(q){ if(q && q.date){ state.qa=q; if(state.data) renderTrust(q);} }).catch(function(){});
 })();
 </script>
