@@ -1761,6 +1761,452 @@
    "checked": "2026-11-01",
    "url_checked": true,
    "verification": "official"
+  },
+  {
+   "id": "sigchi-gary-marsden",
+   "name": "SIGCHI Gary Marsden Travel Awards",
+   "provider": "ACM SIGCHI",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Human-computer interaction",
+    "Computing"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "No nationality limit; priority to financial need and first-time attendees"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Undergraduate or graduate student, early-career researcher, or lacking institutional support"
+   },
+   "host": "ACM SIGCHI conferences (CHI and others)",
+   "amount": "not stated (depends on funds available)",
+   "covers": "Registration (complimentary codes) and travel costs such as flights, lodging, meals, childcare",
+   "payment": "reimbursed",
+   "membership": "SIGCHI membership required at application (ACM membership alone is not enough)",
+   "recurrence": "Seven rounds a year",
+   "window": "Deadlines on the 9th of Jan, Feb, Mar, May, Jul, Sep and Nov (AoE); apply more than one month before the conference",
+   "months": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    9,
+    11
+   ],
+   "next_deadline": "2026-11-09",
+   "status": "open",
+   "dev_priority": false,
+   "url": "https://sigchi.org/resources/gary-marsden-travel-awards/",
+   "notes": "Travel is paid back after the trip; registration is covered by codes. In-person support only once every three years.",
+   "evidence": "the 9th of January, February, March, May, July, September, and November",
+   "type_label": "Conference travel",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "febs-short-term",
+   "name": "FEBS Short-Term Fellowships",
+   "provider": "Federation of European Biochemical Societies (FEBS)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Biochemistry",
+    "Molecular biology",
+    "Life sciences"
+   ],
+   "nat_rule": {
+    "type": "region",
+    "values": [
+     "FEBS countries"
+    ],
+    "note": "Must work in a lab in a FEBS country and visit a lab in a different FEBS country"
+   },
+   "enrol_rule": {
+    "type": "region",
+    "note": "PhD student (or PhD within past four years) in a FEBS-country lab; first-author paper highly recommended"
+   },
+   "host": "Academic lab in a different FEBS country",
+   "amount": "EUR 100 per day plus EUR 300 travel",
+   "covers": "Daily subsistence and travel for visits of up to two (exceptionally three) months",
+   "payment": "stipend",
+   "membership": "Member of a FEBS Constituent Society",
+   "recurrence": "Two calls a year",
+   "window": "1st call 1 Nov to 10 Dec 2026; 2nd call 1 May to 10 Jun 2027",
+   "months": [
+    11,
+    12,
+    5,
+    6
+   ],
+   "next_deadline": "2026-12-10",
+   "status": "open",
+   "dev_priority": false,
+   "url": "https://www.febs.org/our-activities/fellowships/short-term-fellowships/",
+   "notes": "Only for people already working in a FEBS member country, which includes some non-EU countries. Covers visits from March 2027.",
+   "evidence": "Application period from 1 November 2026 to 10 December 2026",
+   "type_label": "Research stay",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "keystone-global-health-travel",
+   "name": "Keystone Symposia Global Health Travel Awards",
+   "provider": "Keystone Symposia on Molecular and Cellular Biology",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Life sciences",
+    "Biomedical sciences",
+    "Global health"
+   ],
+   "nat_rule": {
+    "type": "developing",
+    "note": "Must be from and live/work in a low- or middle-income country"
+   },
+   "enrol_rule": {
+    "type": "developing",
+    "note": "Students, fellows, career scientists and clinicians based in an LMIC"
+   },
+   "host": "Selected Keystone Symposia meetings worldwide",
+   "amount": "not stated (covers listed costs)",
+   "covers": "Meeting registration, lodging and airfare; airport transfer at some locations",
+   "payment": "upfront",
+   "membership": "",
+   "recurrence": "Per meeting",
+   "window": "Deadlines vary by meeting; listed in the application form",
+   "months": [],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": true,
+   "url": "https://www.keystonesymposia.org/financial-aid/global-health-awards",
+   "notes": "Only some meetings offer the award. One travel award per person per meeting year (July to June). Travel is arranged for you.",
+   "evidence": "To be eligible you must be from and live/work in an LMIC.",
+   "type_label": "Conference travel",
+   "status_label": "Rolling / year-round",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "elap-canada",
+   "name": "Emerging Leaders in the Americas Program (ELAP)",
+   "provider": "Global Affairs Canada",
+   "type": "research_stay",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "nat_rule": {
+    "type": "region",
+    "values": [
+     "Latin America",
+     "Caribbean"
+    ],
+    "note": "Citizens of listed Latin American and Caribbean countries; not Canadian citizens or permanent residents"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Enrolled full-time at a home institution; graduate students need an invitation from a Canadian supervisor"
+   },
+   "host": "Canadian colleges and universities",
+   "amount": "CAD 8,600 (4 months) or CAD 12,400 (5 to 6 months) for graduate students",
+   "covers": "Short-term study or research stay in Canada",
+   "payment": "stipend",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "2026-27 cycle: Canadian institutions applied by 31 Mar 2026; next call not stated",
+   "months": [
+    3
+   ],
+   "next_deadline": null,
+   "status": "monitor",
+   "dev_priority": true,
+   "url": "https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=eng",
+   "notes": "You cannot apply yourself: the Canadian host institution selects you and applies for you. Find a Canadian supervisor first.",
+   "evidence": "Only Canadian post-secondary institutions are eligible to apply on this call",
+   "type_label": "Research stay",
+   "status_label": "Recurring – watch for next call",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "microbiology-soc-research-visit",
+   "name": "Microbiology Society Research Visit Grant",
+   "provider": "Microbiology Society (UK)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Microbiology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Members worldwide"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Registered for a PhD (or postdoc/early lecturer); visit of four weeks to three months"
+   },
+   "host": "Any other laboratory worldwide",
+   "amount": "Up to GBP 3,000",
+   "covers": "Research visit of one to three months to another lab",
+   "payment": "varies",
+   "membership": "Postgraduate Student (or Full) member for at least one year, two consecutive payments",
+   "recurrence": "Two rounds a year",
+   "window": "Round 1: 1 Mar to 1 May; Round 2: 1 Aug to 1 Oct",
+   "months": [
+    3,
+    4,
+    5,
+    8,
+    9,
+    10
+   ],
+   "next_deadline": null,
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://microbiologysociety.org/grants-prizes/all-grants/research-visit-grant.html",
+   "notes": "You must have been a paying member for a year before applying. Next round opens 1 March.",
+   "evidence": "Round 1 applications open on 01 March – deadline 01 May",
+   "type_label": "Research stay",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "rai-biological-anthropology",
+   "name": "RAI Biological Anthropology Small Grant Scheme",
+   "provider": "Royal Anthropological Institute (RAI)",
+   "type": "fieldwork",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Biological anthropology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "No nationality restriction"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Not for undergraduate fieldwork; doctorate holders not eligible"
+   },
+   "host": "Fieldwork anywhere",
+   "amount": "Up to GBP 1,500",
+   "covers": "Research and fieldwork in biological anthropology",
+   "payment": "upfront",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "Closes 31 March each year",
+   "months": [
+    3
+   ],
+   "next_deadline": "2027-03-31",
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://therai.org.uk/awards/research-grants/rai-biological-anthropology-small-grant-scheme/",
+   "notes": "Paid at the start of fieldwork. Interim and final reports required, or the grant may have to be repaid.",
+   "evidence": "The closing date for applications is 31 March each year.",
+   "type_label": "Fieldwork",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "rai-emslie-horniman",
+   "name": "Emslie Horniman Anthropological Scholarship Fund",
+   "provider": "Royal Anthropological Institute (RAI)",
+   "type": "fieldwork",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Anthropology",
+    "Archaeology"
+   ],
+   "nat_rule": {
+    "type": "list",
+    "values": [
+     "United Kingdom",
+     "Ireland",
+     "Commonwealth countries"
+    ],
+    "note": "UK, Irish or Commonwealth citizens"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Research towards an MPhil/PhD; not for Master's fieldwork; doctorate holders not eligible"
+   },
+   "host": "Fieldwork, preferably outside the UK",
+   "amount": "Up to GBP 10,000 per project",
+   "covers": "Doctoral fieldwork",
+   "payment": "varies",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "Closes 31 March each year",
+   "months": [
+    3
+   ],
+   "next_deadline": "2027-03-31",
+   "status": "upcoming",
+   "dev_priority": true,
+   "url": "https://therai.org.uk/awards/research-grants/emslie-horniman-anthropological-scholarship-fund/",
+   "notes": "Open to citizens of Commonwealth countries, including many in Africa, South Asia and the Pacific. Interim and final reports required.",
+   "evidence": "The closing date for applications is 31 March each year.",
+   "type_label": "Fieldwork",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "rai-radcliffe-brown-firth",
+   "name": "Radcliffe-Brown and Firth Trust Funds for Social Anthropological Research",
+   "provider": "Royal Anthropological Institute (RAI)",
+   "type": "thesis_completion",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Social anthropology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated"
+   },
+   "enrol_rule": {
+    "type": "region",
+    "values": [
+     "UK",
+     "Commonwealth"
+    ],
+    "note": "Students at British or Commonwealth universities; near thesis completion"
+   },
+   "host": "Your own university",
+   "amount": "Up to GBP 750",
+   "covers": "Support for finishing social anthropology research",
+   "payment": "varies",
+   "membership": "",
+   "recurrence": "Twice a year",
+   "window": "Closes 30 April and 30 November each year",
+   "months": [
+    4,
+    11
+   ],
+   "next_deadline": "2026-11-30",
+   "status": "open",
+   "dev_priority": true,
+   "url": "https://therai.org.uk/awards/research-grants/radcliffe-brown-and-firth-trust-funds-for-social-anthropological-research/",
+   "notes": "Mainly for students who have nearly finished their thesis. Universities in Commonwealth countries qualify.",
+   "evidence": "The closing dates for applications are 30 April and 30 November each year.",
+   "type_label": "Thesis completion",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "cimpa-fellowships",
+   "name": "CIMPA Fellowships for thematic research stays",
+   "provider": "CIMPA (Centre International de Mathématiques Pures et Appliquées)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Mathematics"
+   ],
+   "nat_rule": {
+    "type": "developing",
+    "note": "Based in a developing country (IMU classification)"
+   },
+   "enrol_rule": {
+    "type": "developing",
+    "note": "Aged 36 or under or PhD within 5 years; at least Master 2 level"
+   },
+   "host": "Partner centres: Bernoulli (Lausanne), CIRM, CRM, IHP, ICRTM (Hanoi), Lie-Størmer (Tromsø)",
+   "amount": "not stated (limits set per programme)",
+   "covers": "Travel and subsistence (accommodation and per diems)",
+   "payment": "reimbursed",
+   "membership": "",
+   "recurrence": "Several calls a year",
+   "window": "Deadline set in each programme call on the CIMPA site",
+   "months": [],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": true,
+   "url": "https://www.cimpa.info/en/node/64",
+   "notes": "Travel is paid back on arrival. You must stay at least two thirds of the programme.",
+   "evidence": "young mathematicians based in developing countries",
+   "type_label": "Research stay",
+   "status_label": "Rolling / year-round",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "cimpa-research-schools",
+   "name": "CIMPA Research Schools (participant support)",
+   "provider": "CIMPA (Centre International de Mathématiques Pures et Appliquées)",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Mathematics"
+   ],
+   "nat_rule": {
+    "type": "developing",
+    "note": "Mainly for students and researchers based in developing countries (IMU list)"
+   },
+   "enrol_rule": {
+    "type": "developing",
+    "note": "Courses at least at Master's level"
+   },
+   "host": "Two-week schools held in developing countries",
+   "amount": "not stated",
+   "covers": "No registration fee; travel and accommodation support for participants who need it",
+   "payment": "varies",
+   "membership": "",
+   "recurrence": "Many schools each year",
+   "window": "Each school has its own deadline on its website",
+   "months": [],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": true,
+   "url": "https://www.cimpa.info/en/node/63",
+   "notes": "Apply to a specific school and ask for financial support in the form. Local participants usually get no accommodation.",
+   "evidence": "In all cases, there is no registration fee.",
+   "type_label": "Conference travel",
+   "status_label": "Rolling / year-round",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
   }
  ],
  "excluded": [
