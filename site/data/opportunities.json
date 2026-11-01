@@ -1,12 +1,12 @@
 {
  "meta": {
   "generated": "2026-11-01",
-  "count": 43,
+  "count": 42,
   "version": 1,
   "verification_counts": {
    "official": 34,
    "secondary": 6,
-   "needs_check": 3
+   "needs_check": 2
   }
  },
  "opportunities": [
@@ -513,47 +513,6 @@
    ],
    "type_label": "Conference travel",
    "status_label": "Opens soon (recurring)"
-  },
-  {
-   "id": "qcrypt-support",
-   "name": "QCrypt Student Travel Support",
-   "provider": "QCrypt conference organisers",
-   "type": "conference_travel",
-   "levels": [
-    "MSc",
-    "PhD"
-   ],
-   "fields": [
-    "Quantum cryptography"
-   ],
-   "nat_rule": {
-    "type": "any"
-   },
-   "enrol_rule": {
-    "type": "any"
-   },
-   "host": "Conference location",
-   "amount": "Mostly registration-fee support; limited travel for highest need",
-   "covers": "Registration, some travel",
-   "payment": "varies",
-   "recurrence": "Annual, per edition",
-   "window": "Announced with each edition",
-   "status": "monitor",
-   "url": "https://qcrypt.net/2026/attend/barrier-alleviating-fund/",
-   "verification": "needs_check",
-   "notes": "2026 support was a Barrier Alleviating Fund for caregiving and accessibility costs, not financial need. QCrypt 2027 support not yet announced.",
-   "checked": "2026-11-01",
-   "dev_priority": false,
-   "membership": "",
-   "next_deadline": null,
-   "url_checked": true,
-   "months": [
-    6,
-    7
-   ],
-   "type_label": "Conference travel",
-   "status_label": "Recurring – watch for next call",
-   "evidence": ""
   },
   {
    "id": "spie-student-support",
@@ -1259,14 +1218,14 @@
    "payment": "varies",
    "recurrence": "Twice yearly",
    "window": "1 May (projects Jan–Jun next year) and 1 Nov (projects Jul–Dec next year)",
-   "next_deadline": "2026-11-01",
-   "status": "open",
+   "next_deadline": null,
+   "status": "upcoming",
    "url": "https://wennergren.org/program/dissertation-fieldwork-grant/",
    "verification": "official",
    "checked": "2026-11-01",
    "dev_priority": false,
    "membership": "",
-   "notes": "1 Nov 2026 is the last day of this round; the next round closes 1 May. Portal opens two months before each deadline.",
+   "notes": "The 1 Nov 2026 round has closed; the next round closes 1 May (projects Jan–Jun next year). Portal opens two months before each deadline.",
    "url_checked": true,
    "months": [
     4,
@@ -1275,7 +1234,7 @@
     11
    ],
    "type_label": "Fieldwork",
-   "status_label": "Open now",
+   "status_label": "Opens soon (recurring)",
    "evidence": "Qualified students of any nationality or institutional affiliation may apply."
   },
   {
@@ -1824,6 +1783,11 @@
    "name": "University-internal grants (e.g. Cornell IAD, UF CAS, Berkeley CLACS)",
    "reason": "Only for that university's own students",
    "url": ""
+  },
+  {
+   "name": "QCrypt Barrier Alleviating Fund",
+   "reason": "Covers caregiving and accessibility costs for any attendee; not student travel or registration support",
+   "url": "https://qcrypt.net/2026/attend/barrier-alleviating-fund/"
   }
  ],
  "discovery_feeds": [
