@@ -2975,6 +2975,385 @@
    "checked": "2026-11-01",
    "url_checked": true,
    "verification": "official"
+  },
+  {
+   "id": "ieee-sps-icassp-icip-travel",
+   "name": "IEEE Signal Processing Society Travel Grants (ICASSP and ICIP)",
+   "provider": "IEEE Signal Processing Society (SPS)",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Signal processing",
+    "Electrical engineering"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "SPS member with an accepted paper, presenting in person; reference letter from supervisor"
+   },
+   "host": "IEEE ICASSP and IEEE ICIP conferences",
+   "amount": "Typically up to USD 750 or USD 1,500",
+   "covers": "Travel expenses including airfare and accommodation",
+   "payment": "reimbursed",
+   "membership": "IEEE SPS membership required when applying",
+   "recurrence": "Per conference",
+   "window": "Short windows announced per conference on the SPS page",
+   "months": [],
+   "next_deadline": null,
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://signalprocessingsociety.org/events/sps-travel-grants",
+   "notes": "Paid back after the conference. Application windows are often very short, so prepare the reference letter early.",
+   "evidence": "The grants, if approved, will be on a reimbursement basis",
+   "type_label": "Conference travel",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "sigcomm-geo-diversity",
+   "name": "ACM SIGCOMM Geo-Diversity Grants",
+   "provider": "ACM SIGCOMM",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Computer networking",
+    "Computing"
+   ],
+   "nat_rule": {
+    "type": "developing",
+    "note": "From countries historically under-represented at SIGCOMM (e.g. Latin America, Africa, parts of Asia)"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Graduate students, postdocs, pre-PhD researchers or up to 5 years post-PhD; non-authors preferred"
+   },
+   "host": "ACM SIGCOMM flagship conference",
+   "amount": "not stated (aims to cover full costs)",
+   "covers": "Economy airfare, four nights at the conference hotel, registration, meals and local transport",
+   "payment": "varies",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "Announced with each SIGCOMM conference; apply by email to the travel grant chairs",
+   "months": [],
+   "next_deadline": null,
+   "status": "upcoming",
+   "dev_priority": true,
+   "url": "https://www.sigcomm.org/initiatives/geo-diversity-grants",
+   "notes": "Paper authors are usually expected to be funded by their institution; poster authors are encouraged. Registration is waived, not repaid.",
+   "evidence": "Latin America, Africa, and parts of Asia), applicants should be from such countries.",
+   "type_label": "Conference travel",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "sigir-student-travel",
+   "name": "ACM SIGIR Student Travel Grants",
+   "provider": "ACM SIGIR",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Information retrieval",
+    "Computing"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Student presenting a full, short or demo paper, or doctoral consortium participant"
+   },
+   "host": "SIGIR-sponsored conferences: SIGIR, CIKM, CHIIR, ICTIR, JCDL, WSDM and others",
+   "amount": "USD 1,000 or USD 2,000",
+   "covers": "Registration, travel and lodging",
+   "payment": "reimbursed",
+   "membership": "ACM SIGIR membership required",
+   "recurrence": "Per conference",
+   "window": "Deadlines set by each conference",
+   "months": [],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": false,
+   "url": "https://sigir.org/general-information/travel-grants/",
+   "notes": "You pay upfront and are reimbursed. Workshop-paper authors and non-presenting co-authors are not eligible.",
+   "evidence": "To be eligible, a student must be a member of ACM SIGIR",
+   "type_label": "Conference travel",
+   "status_label": "Rolling / year-round",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "eseb-conference-travel-award",
+   "name": "ESEB Conference Travel Award 2027",
+   "provider": "European Society for Evolutionary Biology (ESEB)",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Evolutionary biology"
+   ],
+   "nat_rule": {
+    "type": "developing",
+    "note": "Must be professionally based in a non-high-income country (World Bank)"
+   },
+   "enrol_rule": {
+    "type": "developing",
+    "note": "Master's or PhD students, postdocs and young lecturers presenting a talk or poster"
+   },
+   "host": "EMPSEB (Slovenia, 31 May–4 Jun 2027), ESEB Hub Congress (16–20 Aug 2027) or Evolution meeting (San Juan, 25–29 Jun 2027)",
+   "amount": "not stated",
+   "covers": "Travel, living expenses and early-bird registration",
+   "payment": "reimbursed",
+   "membership": "ESEB membership before the deadline",
+   "recurrence": "Annual",
+   "window": "Deadline 31 Jan 2027; decision by end of Feb 2027",
+   "months": [
+    1
+   ],
+   "next_deadline": "2027-01-31",
+   "status": "open",
+   "dev_priority": true,
+   "url": "https://eseb.org/prizes-funding/conference-travel-award/",
+   "notes": "Paid back after the meeting against receipts. Not open if you received an ESEB travel stipend in the last five years.",
+   "evidence": "Scientists working in a country with a high GDP are not eligible.",
+   "type_label": "Conference travel",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "csir-travel-grant",
+   "name": "CSIR Travel Grant Scheme",
+   "provider": "Council of Scientific & Industrial Research (CSIR), India – HRDG",
+   "type": "conference_travel",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Science",
+    "Engineering",
+    "Medicine"
+   ],
+   "nat_rule": {
+    "type": "list",
+    "values": [
+     "India"
+    ],
+    "note": "Young Indian researchers working in India"
+   },
+   "enrol_rule": {
+    "type": "list",
+    "note": "PhD students, research associates, resident doctors and non-regular researchers in India"
+   },
+   "host": "International conferences, symposia, workshops, short-term schools and courses abroad",
+   "amount": "Up to full actual airfare",
+   "covers": "Return airfare from the airport nearest your place of work in India",
+   "payment": "reimbursed",
+   "membership": "",
+   "recurrence": "Rolling",
+   "window": "not stated on the page (see scheme document)",
+   "months": [],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": true,
+   "url": "https://csirhrdg.res.in/Home/Index/1/Default/2677/69",
+   "notes": "Covers airfare only, paid back after travel. Read the linked scheme rules for how early to apply.",
+   "evidence": "up to full reimbursement of the actual airfare",
+   "type_label": "Conference travel",
+   "status_label": "Rolling / year-round",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "iscb-conference-travel-fellowships",
+   "name": "ISCB Conference Travel Fellowships",
+   "provider": "International Society for Computational Biology (ISCB)",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Computational biology",
+    "Bioinformatics"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "ISCB student or postdoc member presenting a paper or poster"
+   },
+   "host": "PSB, RECOMB, ISMB, ECCB and InCoB conferences",
+   "amount": "not stated",
+   "covers": "Travel support to attend the conference",
+   "payment": "varies",
+   "membership": "ISCB student or postdoc membership",
+   "recurrence": "Per conference",
+   "window": "Apply through each conference website's process and deadline",
+   "months": [],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": false,
+   "url": "https://transition.iscb.org/iscb-conference-travel-fellowships",
+   "notes": "Members only, and only if presenting. Each conference sets its own form and deadline.",
+   "evidence": "exclusively for ISCB student and post doctoral members",
+   "type_label": "Conference travel",
+   "status_label": "Rolling / year-round",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "obf-event-fellowships",
+   "name": "Open Bioinformatics Foundation (OBF) Event Fellowships",
+   "provider": "Open Bioinformatics Foundation (OBF)",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Bioinformatics",
+    "Open science"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated; aims at people under-represented in the community or event"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "No degree requirement stated; for events promoting open science in bioinformatics"
+   },
+   "host": "Open-science and bioinformatics events worldwide (slight preference for OBF events)",
+   "amount": "Up to USD 1,500",
+   "covers": "Travel, hotel, childcare and registration; or remote-participation costs",
+   "payment": "reimbursed",
+   "membership": "",
+   "recurrence": "Twice a year",
+   "window": "Round 1: 1 April; Round 2: 1 October (event within the following year)",
+   "months": [
+    4,
+    10
+   ],
+   "next_deadline": "2027-04-01",
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://www.open-bio.org/event-awards/",
+   "notes": "The event must fall between one month and one year after the deadline. Awards supplement costs and are paid back.",
+   "evidence": "Application Deadlines: Round 1: 1 April Round 2: 1 October",
+   "type_label": "Conference travel",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "ssb-graduate-research-awards",
+   "name": "Society of Systematic Biologists Graduate Student Research Awards",
+   "provider": "Society of Systematic Biologists (SSB)",
+   "type": "fieldwork",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Systematics",
+    "Evolutionary biology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Applicants may be from any country"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Master's students in first 2 years or PhD students in first 4 years; SSB members"
+   },
+   "host": "Your own research project",
+   "amount": "USD 1,000 to 3,000",
+   "covers": "Research costs in systematics (budget up to USD 3,000)",
+   "payment": "varies",
+   "membership": "SSB membership required",
+   "recurrence": "Annual (spring round)",
+   "window": "2026 round closed 20 Mar 2026; 2027 date not stated",
+   "months": [
+    3
+   ],
+   "next_deadline": null,
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://www.systbio.org/graduate-student-research-awards.html",
+   "notes": "Join SSB early so your membership is active when you apply. Adviser support letter needed.",
+   "evidence": "Applicants may be from any country, but must be members of SSB",
+   "type_label": "Fieldwork",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "scb-graduate-research-awards",
+   "name": "SCB Graduate Student Research Awards",
+   "provider": "Society for Conservation Biology (SCB)",
+   "type": "fieldwork",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Conservation biology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Graduate students who are SCB members, with financial need"
+   },
+   "host": "Field research in conservation science",
+   "amount": "USD 1,000 (ten awards)",
+   "covers": "Travel, materials and equipment for field research",
+   "payment": "varies",
+   "membership": "SCB membership required",
+   "recurrence": "Annual",
+   "window": "2026 round closed 15 Oct 2026; next round not stated",
+   "months": [
+    10
+   ],
+   "next_deadline": null,
+   "status": "closed",
+   "dev_priority": false,
+   "url": "https://conbio.org/publications/scb-news-blog/2026-graduate-student-research-awards",
+   "notes": "Small awards with a financial-need test. Watch for the 2027 call.",
+   "evidence": "The deadline to submit your materials is 15 October 2026",
+   "type_label": "Fieldwork",
+   "status_label": "Closed this cycle",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
   }
  ],
  "excluded": [
