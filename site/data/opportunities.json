@@ -2207,6 +2207,419 @@
    "checked": "2026-11-01",
    "url_checked": true,
    "verification": "official"
+  },
+  {
+   "id": "isca-grants",
+   "name": "ISCA Grants for students to attend speech conferences and workshops",
+   "provider": "International Speech Communication Association (ISCA)",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Speech science",
+    "Speech technology",
+    "Computing"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Applicants from all countries; preference to areas needing greater support"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Students and early-career scientists; no previous ISCA grant"
+   },
+   "host": "Interspeech and other ISCA-organised or supported events",
+   "amount": "not stated (depends on budget)",
+   "covers": "Early registration and possibly accommodation; travel only in exceptional cases",
+   "payment": "varies",
+   "membership": "not stated",
+   "recurrence": "Per event",
+   "window": "Apply by the deadline on the event website, or by its early registration date",
+   "months": [],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": false,
+   "url": "https://www.isca-speech.org/Grants",
+   "notes": "Usually paid to the organisers for ISCA events; otherwise paid back after the event against receipts. Report due within 3 months.",
+   "evidence": "Applicants from all countries are eligible.",
+   "type_label": "Conference travel",
+   "status_label": "Rolling / year-round",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "twas-sissa-lincei-visits",
+   "name": "TWAS-SISSA-Lincei Research Cooperation Visits Programme",
+   "provider": "UNESCO-TWAS with Accademia dei Lincei and SISSA",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Sustainability science",
+    "Physics",
+    "Mathematics",
+    "Neuroscience",
+    "Life sciences",
+    "Humanities"
+   ],
+   "nat_rule": {
+    "type": "developing",
+    "note": "Nationals of least developed countries only"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Must hold an MSc or higher; maximum age 40 on 31 Dec; not already in Italy"
+   },
+   "host": "Research institutions in Friuli Venezia Giulia, Italy (e.g. SISSA, Trieste)",
+   "amount": "not stated",
+   "covers": "Travel expenses and subsistence for a three-month stay",
+   "payment": "stipend",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "Extended deadline 16 Nov 2026",
+   "months": [
+    11
+   ],
+   "next_deadline": "2026-11-16",
+   "status": "open",
+   "dev_priority": true,
+   "url": "https://www.twas.org/opportunity/twas-sissa-lincei-research-cooperation-visits-programme",
+   "notes": "Least developed countries only. Projects must fit sustainability science and a listed host institution.",
+   "evidence": "Applicants must be nationals of a least developed country",
+   "type_label": "Research stay",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "eacr-travel-fellowships",
+   "name": "EACR Travel Fellowships",
+   "provider": "European Association for Cancer Research (EACR) with Worldwide Cancer Research",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Cancer research",
+    "Life sciences"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated; if based outside Europe the visit must be to a European country"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "EACR member; PhD students accepted; up to 8 years postdoctoral experience"
+   },
+   "host": "Lab or research group in another country",
+   "amount": "Up to EUR 3,500",
+   "covers": "Travel, accommodation and research costs for a lab visit of two weeks to three months",
+   "payment": "varies",
+   "membership": "EACR membership required",
+   "recurrence": "Rolling",
+   "window": "No deadlines; apply at least 12 weeks before the visit",
+   "months": [],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": false,
+   "url": "https://www.eacr.org/travel-fellowships",
+   "notes": "Apply 12 weeks ahead; decisions within about nine weeks. Researchers outside Europe must visit a European lab.",
+   "evidence": "We accept applications from PhD students.",
+   "type_label": "Research stay",
+   "status_label": "Rolling / year-round",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "imc-leeds-bursary",
+   "name": "International Medieval Congress (IMC) Bursary Fund",
+   "provider": "Institute for Medieval Studies, University of Leeds",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Medieval studies",
+    "Humanities"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Open to students and to delegates from outside Western Europe"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Students, independent and unwaged scholars, pensioners, delegates from outside Western Europe"
+   },
+   "host": "International Medieval Congress, Leeds, UK (July)",
+   "amount": "not stated (varies; GBP 19,000 shared among 99 awardees in 2026)",
+   "covers": "All or part of registration and programming fee, accommodation and meals",
+   "payment": "varies",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "IMC 2027 bursary deadline was 15 Oct 2026; next cycle not stated",
+   "months": [
+    10
+   ],
+   "next_deadline": null,
+   "status": "closed",
+   "dev_priority": false,
+   "url": "https://www.imc.leeds.ac.uk/imc-2027/proposals/bursaries-awards/",
+   "notes": "Covers congress costs, not flights. Applications for IMC 2027 are closed; watch for the IMC 2028 round.",
+   "evidence": "Bursary Applications for IMC 2027 are closed",
+   "type_label": "Conference travel",
+   "status_label": "Closed this cycle",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "leakey-research-grants",
+   "name": "Leakey Foundation Research Grants",
+   "provider": "The Leakey Foundation",
+   "type": "fieldwork",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Human origins",
+    "Biological anthropology",
+    "Primatology",
+    "Paleoanthropology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Doctoral students advanced to candidacy (all but dissertation), or PhD holders"
+   },
+   "host": "Fieldwork and research anywhere",
+   "amount": "Up to USD 20,000 for PhD candidates",
+   "covers": "Travel, living expenses during fieldwork, supplies and research expenses",
+   "payment": "varies",
+   "membership": "",
+   "recurrence": "Twice a year",
+   "window": "Deadlines 10 January (spring cycle) and 15 July (fall cycle)",
+   "months": [
+    1,
+    7
+   ],
+   "next_deadline": "2027-01-10",
+   "status": "open",
+   "dev_priority": false,
+   "url": "https://leakeyfoundation.org/grant/research/",
+   "notes": "Only for human-origins research. You must reach PhD candidacy before decisions (April or November).",
+   "evidence": "deadlines falling on January 10th (Spring Cycle) and July 15th (Fall Cycle)",
+   "type_label": "Fieldwork",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "leakey-francis-brown",
+   "name": "Francis H. Brown African Scholarship",
+   "provider": "The Leakey Foundation",
+   "type": "small_grant",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Earth sciences",
+    "Botany",
+    "Human origins"
+   ],
+   "nat_rule": {
+    "type": "list",
+    "values": [
+     "Kenya",
+     "Ethiopia",
+     "Tanzania",
+     "Uganda",
+     "South Sudan",
+     "Djibouti",
+     "Rwanda",
+     "Burundi",
+     "Somalia",
+     "Mozambique",
+     "Malawi",
+     "Eritrea"
+    ],
+    "note": "Citizens of listed East African countries"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Graduate students or post-PhD researchers"
+   },
+   "host": "Research related to human origins",
+   "amount": "Up to USD 30,000",
+   "covers": "Research in earth sciences and botany related to human origins",
+   "payment": "varies",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "Apply by 15 July",
+   "months": [
+    7
+   ],
+   "next_deadline": "2027-07-15",
+   "status": "upcoming",
+   "dev_priority": true,
+   "url": "https://leakeyfoundation.org/grant/francis-h-brown/",
+   "notes": "East African citizens only, and only earth-science or botany work linked to human origins.",
+   "evidence": "When to apply July 15",
+   "type_label": "Small grant",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "fens-ibro-perc-exchange",
+   "name": "FENS/IBRO-PERC Exchange Fellowships",
+   "provider": "FENS and IBRO Pan-Europe Regional Committee",
+   "type": "research_stay",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Neuroscience"
+   ],
+   "nat_rule": {
+    "type": "region",
+    "values": [
+     "Europe"
+    ],
+    "note": "Must be based in Europe; home and host labs in different European countries"
+   },
+   "enrol_rule": {
+    "type": "region",
+    "note": "Master's or PhD student in neuroscience (or early postdoc) currently based in Europe"
+   },
+   "host": "Established neuroscience labs in another European country",
+   "amount": "Up to EUR 4,000",
+   "covers": "Economy travel and housing",
+   "payment": "varies",
+   "membership": "Member of a FENS member society, individual FENS member, or listed IBRO Pan-Europe organisation",
+   "recurrence": "Twice a year",
+   "window": "Deadlines 15 April and 15 October (Brussels time)",
+   "months": [
+    4,
+    10
+   ],
+   "next_deadline": "2027-04-15",
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://ibro.org/grant/fens-ibro-perc-exchange-fellowships/",
+   "notes": "Europe-based students only; the visit must be to a different country. Insurance and equipment are not covered.",
+   "evidence": "Biannually – on 15 April and 15 October",
+   "type_label": "Research stay",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "ibro-world-congress-2027-travel",
+   "name": "IBRO World Congress 2027 Travel Grants",
+   "provider": "International Brain Research Organization (IBRO)",
+   "type": "conference_travel",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Neuroscience"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Applicants from everywhere in the world"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "PhD neuroscience student or postdoc within 5 years; first-author abstract to the Congress"
+   },
+   "host": "IBRO World Congress 2027, Cape Town, South Africa",
+   "amount": "Up to USD 2,500",
+   "covers": "Registration fee, travel to Cape Town, visa costs, accommodation and meals",
+   "payment": "varies",
+   "membership": "",
+   "recurrence": "Each World Congress",
+   "window": "Applications 11 Jan to 15 Mar 2027",
+   "months": [
+    1,
+    2,
+    3
+   ],
+   "next_deadline": "2027-03-15",
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://ibro.org/grant/iwc-travel-grants/",
+   "notes": "Submit your abstract as first author before applying. Cannot be combined with another IBRO travel grant that year.",
+   "evidence": "Applicants from everywhere in the world are eligible to apply",
+   "type_label": "Conference travel",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "ibro-exchange-fellowships",
+   "name": "IBRO Exchange Fellowships (international neuroscience internships)",
+   "provider": "International Brain Research Organization (IBRO)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Neuroscience"
+   ],
+   "nat_rule": {
+    "type": "region",
+    "values": [
+     "Africa",
+     "Asia-Pacific",
+     "Latin America",
+     "US/Canada"
+    ],
+    "note": "Residents of these regions; priority to less developed and under-funded countries"
+   },
+   "enrol_rule": {
+    "type": "region",
+    "note": "PhD neuroscience student or postdoc within 5 years; host lab in another country"
+   },
+   "host": "Neuroscience lab in a different country",
+   "amount": "Varies by region: up to USD 6,000, 7,500 or 8,000",
+   "covers": "Travel and local expenses during the exchange",
+   "payment": "varies",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "2026 call ran 15 Jan to 15 Apr 2026; next call not stated",
+   "months": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "next_deadline": null,
+   "status": "closed",
+   "dev_priority": true,
+   "url": "https://ibro.org/grant/exchange-fellowships/",
+   "notes": "Europe-based students use the FENS/IBRO-PERC scheme instead. Report due within 3 months after the exchange.",
+   "evidence": "Priority will be given to applicants from less developed and under-funded countries",
+   "type_label": "Research stay",
+   "status_label": "Closed this cycle",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
   }
  ],
  "excluded": [
@@ -2234,6 +2647,36 @@
    "name": "QCrypt Barrier Alleviating Fund",
    "reason": "Covers caregiving and accessibility costs for any attendee; not student travel or registration support",
    "url": "https://qcrypt.net/2026/attend/barrier-alleviating-fund/"
+  },
+  {
+   "name": "EGU Roland Schlich Travel Support (EGU27)",
+   "reason": "Applying requires paying the abstract processing charge and 2027 EGU membership (application-fee rule)",
+   "url": "https://www.egu27.eu/attendance/financial_support_and_waivers.html"
+  },
+  {
+   "name": "Canada-ASEAN SEED Scholarships",
+   "reason": "Official page still shows the 31 Mar 2025 deadline; no current call confirmed",
+   "url": "https://www.educanada.ca/scholarships-bourses/can/institutions/asean-anase.aspx?lang=eng"
+  },
+  {
+   "name": "IEEE RAS SPARX",
+   "reason": "For faculty members and mentor teams, not students",
+   "url": "https://www.ieee-ras.org/membership/support-program-to-foster-academic-relationships-and-exchange/"
+  },
+  {
+   "name": "Ford-LASA Special Projects",
+   "reason": "Grants to LASA sections or member groups, not individual students",
+   "url": "https://lasaweb.org/en/lasa-grants"
+  },
+  {
+   "name": "AERC commissioned studies for early-career researchers",
+   "reason": "Requires an awarded PhD",
+   "url": "https://aercafrica.org/call-for-proposals/"
+  },
+  {
+   "name": "OIST Research Internship",
+   "reason": "Aimed at students planning a PhD; 15 Oct 2026 deadline has passed",
+   "url": "https://admissions.oist.jp/research-internship"
   }
  ],
  "discovery_feeds": [
