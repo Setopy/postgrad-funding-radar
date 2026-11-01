@@ -30,6 +30,7 @@ table{border-collapse:collapse;width:100%;font-size:14.5px} td,th{border-bottom:
 <tr><td>You use the matching tool or tracker</td><td>Nationality, study country, level, field, saved programmes</td><td>Only in your own browser. We never receive it.</td></tr>
 <tr><td>You join the founding member list</td><td>Name, email or WhatsApp number, plan interest, price you'd pay, your comment, and the profile above</td><td>Our database (Supabase)</td></tr>
 <tr><td>You report a problem</td><td>The programme, the problem type and your comment</td><td>Our database (Supabase)</td></tr>
+<tr><td>You visit any page</td><td>Anonymous visit counts: page, referring site, country, browser and device type</td><td>Cloudflare Web Analytics (no cookies, no personal profile)</td></tr>
 </table>
 <p>We don't collect ID numbers, passport details, payment details or your location. The site uses no advertising or tracking cookies.</p>
 
@@ -56,5 +57,6 @@ table{border-collapse:collapse;width:100%;font-size:14.5px} td,th{border-bottom:
   var a=document.createElement("a");a.href="mailto:"+c.contactEmail;a.textContent=c.contactEmail;p.appendChild(a);p.appendChild(document.createTextNode("."));}
 })();
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2f103b7d0e93457595493e44bba0224e"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

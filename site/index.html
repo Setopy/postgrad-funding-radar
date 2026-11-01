@@ -784,5 +784,6 @@ fetch("data/scholarships.json",{cache:"no-cache"}).then(function(r){return r.ok?
 fetch("data/qa.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(q){ if(q && q.date){ state.qa=q; if(state.data) renderTrust(q);} }).catch(function(){});
 })();
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2f103b7d0e93457595493e44bba0224e"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
