@@ -3354,6 +3354,312 @@
    "checked": "2026-11-01",
    "url_checked": true,
    "verification": "official"
+  },
+  {
+   "id": "fulbright-nehru-doctoral",
+   "name": "Fulbright-Nehru Doctoral Research Fellowships",
+   "provider": "United States-India Educational Foundation (USIEF)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "All fields (priority areas listed in the call)"
+   ],
+   "nat_rule": {
+    "type": "list",
+    "values": [
+     "India"
+    ],
+    "note": "Indian citizens"
+   },
+   "enrol_rule": {
+    "type": "list",
+    "note": "Registered for a PhD at an Indian institution; thesis due at least 3 months after the grant ends"
+   },
+   "host": "US universities and research institutions",
+   "amount": "not stated (monthly stipend)",
+   "covers": "J-1 visa support, monthly stipend, accident and sickness cover, return economy airfare, allowances",
+   "payment": "stipend",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "2027-28 round closed (deadline end Sep 2026); next round not stated",
+   "months": [
+    9
+   ],
+   "next_deadline": null,
+   "status": "closed",
+   "dev_priority": true,
+   "url": "https://www.usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-nehru-doctoral-research-fellowships/",
+   "notes": "Six to nine months in the US for thesis research. No allowance for dependants; only one Fulbright-Nehru category per cycle.",
+   "evidence": "These fellowships are designed for Indian scholars who are registered for a Ph.D.",
+   "type_label": "Research stay",
+   "status_label": "Closed this cycle",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "fems-micro-2027-attendance",
+   "name": "FEMS MICRO Ljubljana 2027 Attendance Grant",
+   "provider": "Federation of European Microbiological Societies (FEMS)",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Microbiology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "European and non-European early-career researchers"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "PhD student, or highest degree (Bachelor, Master or PhD) within 5 years; first author and presenter of an accepted abstract"
+   },
+   "host": "FEMS MICRO 2027 Congress, Ljubljana, Slovenia",
+   "amount": "Registration fee waiver",
+   "covers": "Free congress registration",
+   "payment": "upfront",
+   "membership": "",
+   "recurrence": "With each FEMS MICRO congress",
+   "window": "Apply with your abstract, 2 Sep to 15 Dec 2026 (23:59 CET)",
+   "months": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "next_deadline": "2026-12-15",
+   "status": "open",
+   "dev_priority": false,
+   "url": "https://fems-microbiology.org/about_fems/network-and-activities/grants/fems-congress-attendance-grant/",
+   "notes": "Covers registration only, not travel. Do not register until you hear back about the grant.",
+   "evidence": "Each grant provides a waiver of the registration fee.",
+   "type_label": "Conference travel",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "fems-meeting-attendance",
+   "name": "FEMS Meeting Attendance Grants",
+   "provider": "Federation of European Microbiological Societies (FEMS)",
+   "type": "conference_travel",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Microbiology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "PhD student or within 5 years of highest degree; presenting author; member of a FEMS Member Society"
+   },
+   "host": "Microbiology meetings worldwide",
+   "amount": "Up to EUR 750",
+   "covers": "Attendance at a meeting where you present",
+   "payment": "varies",
+   "membership": "Member of a FEMS Member Society",
+   "recurrence": "Twice a year",
+   "window": "Next deadline 1 Mar 2027 for meetings 1 May 2027 to 30 Apr 2028",
+   "months": [
+    3,
+    9
+   ],
+   "next_deadline": "2027-03-01",
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://fems-microbiology.org/about_fems/network-and-activities/grants/fems-meeting-attendance-grants/",
+   "notes": "Apply well before the meeting: each deadline covers meetings starting two months later. You must present.",
+   "evidence": "1 March 2027 23:59 CEST for meetings taking place between 1 May 2027",
+   "type_label": "Conference travel",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "fems-research-training-grants",
+   "name": "FEMS Research and Training Grants",
+   "provider": "Federation of European Microbiological Societies (FEMS)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Microbiology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Visit must be to a country other than your country of residence"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "PhD student or within 5 years of highest degree; member of a FEMS Member Society"
+   },
+   "host": "European host institution (exceptionally outside Europe)",
+   "amount": "Up to EUR 5,000",
+   "covers": "Research and training visit abroad",
+   "payment": "varies",
+   "membership": "Member of a FEMS Member Society",
+   "recurrence": "Twice a year",
+   "window": "2026 rounds closed 1 Jan and 1 Jul 2026; next opening to be announced",
+   "months": [
+    1,
+    7
+   ],
+   "next_deadline": null,
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://fems-microbiology.org/about_fems/network-and-activities/grants/fems-research-grants/",
+   "notes": "Mainly for visits to European labs. Applications are closed until FEMS announces the next round.",
+   "evidence": "Information on the opening of applications will follow on this webpage.",
+   "type_label": "Research stay",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "ias-postgraduate-research-grants",
+   "name": "IAS Postgraduate Research Grants",
+   "provider": "International Association of Sedimentologists (IAS)",
+   "type": "fieldwork",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Sedimentology",
+    "Geosciences"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "PhD students who are IAS members"
+   },
+   "host": "Your PhD research project",
+   "amount": "not stated (see guidelines)",
+   "covers": "Fieldwork, data acquisition and analysis, visits to use specialised facilities, field excursions",
+   "payment": "varies",
+   "membership": "IAS student membership",
+   "recurrence": "Twice a year",
+   "window": "Rounds close 31 March and 30 September (midnight CEST)",
+   "months": [
+    3,
+    9
+   ],
+   "next_deadline": "2027-03-31",
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://www.sedimentologists.org/resources/grants/",
+   "notes": "Members only; the work must relate directly to your PhD topic. Amounts are set in the guidelines.",
+   "evidence": "closing at midnight CEST (UTC+2) on 31st March and 30th September",
+   "type_label": "Fieldwork",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "ias-judith-mckenzie-fieldwork",
+   "name": "IAS Judith McKenzie Field Work Award",
+   "provider": "International Association of Sedimentologists (IAS)",
+   "type": "fieldwork",
+   "levels": [
+    "MSc"
+   ],
+   "fields": [
+    "Sedimentology",
+    "Geosciences"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Master's students who are IAS student members"
+   },
+   "host": "Sedimentological fieldwork",
+   "amount": "not stated",
+   "covers": "Fieldwork by master's students",
+   "payment": "varies",
+   "membership": "IAS student membership",
+   "recurrence": "Twice a year",
+   "window": "Rounds close 30 June (midnight CEST) and 31 December (midnight CET)",
+   "months": [
+    6,
+    12
+   ],
+   "next_deadline": "2026-12-31",
+   "status": "open",
+   "dev_priority": false,
+   "url": "https://www.sedimentologists.org/resources/grants/",
+   "notes": "One of few fieldwork grants aimed at Master's students. Join IAS as a student member first.",
+   "evidence": "The awarded budget will support fieldwork by master's students.",
+   "type_label": "Fieldwork",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "gsa-graduate-research-grants",
+   "name": "GSA Graduate Student Research Grants",
+   "provider": "Geological Society of America (GSA)",
+   "type": "fieldwork",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Geology",
+    "Geosciences"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated (eligibility is by university location)"
+   },
+   "enrol_rule": {
+    "type": "region",
+    "values": [
+     "United States",
+     "Canada",
+     "Mexico",
+     "Central America"
+    ],
+    "note": "Graduate students enrolled at universities in the US, Canada, Mexico and Central America"
+   },
+   "host": "Master's and doctoral thesis research",
+   "amount": "not stated (2025 average about USD 2,688)",
+   "covers": "Partial support of master's and doctoral thesis research",
+   "payment": "varies",
+   "membership": "not stated",
+   "recurrence": "Annual",
+   "window": "2026 applications closed; 2027 dates not stated",
+   "months": [],
+   "next_deadline": null,
+   "status": "closed",
+   "dev_priority": false,
+   "url": "https://www.geosociety.org/GSA/grants/gradgrants.aspx",
+   "notes": "Only for students at universities in North and Central America, including Mexico. About half of applicants were funded in 2025.",
+   "evidence": "Applications for the 2026 GSA Graduate Student Research Grants have closed.",
+   "type_label": "Fieldwork",
+   "status_label": "Closed this cycle",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
   }
  ],
  "excluded": [
@@ -3411,6 +3717,11 @@
    "name": "OIST Research Internship",
    "reason": "Aimed at students planning a PhD; 15 Oct 2026 deadline has passed",
    "url": "https://admissions.oist.jp/research-internship"
+  },
+  {
+   "name": "SSE International Travel Stipends (Evolution 2027)",
+   "reason": "Deadline 1 Nov 2026 is less than 7 days away at discovery",
+   "url": "https://www.evolutionsociety.org/content/society-awards-and-prizes/travel-awards.html"
   }
  ],
  "discovery_feeds": [
