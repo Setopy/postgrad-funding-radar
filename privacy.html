@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy notice · Scholarship Radar</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+:root{--ink:#16243a;--muted:#5b6b80;--paper:#f6f8fb;--line:#d9e1ea;--link:#1f6f8b;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--ink:#e6edf6;--muted:#9db0c6;--paper:#0d1724;--line:#25384f;--link:#56b6d6;color-scheme:dark}}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 "IBM Plex Sans","Segoe UI",system-ui,sans-serif}
+main{max-width:68ch;margin:0 auto;padding:32px 20px 60px}
+h1{font-size:30px;margin:0 0 4px} h2{font-size:19px;margin:28px 0 6px}
+a{color:var(--link)} .muted{color:var(--muted);font-size:14px}
+table{border-collapse:collapse;width:100%;font-size:14.5px} td,th{border-bottom:1px solid var(--line);padding:7px 6px;text-align:left;vertical-align:top}
+</style>
+</head>
+<body>
+<main>
+<p><a href="index.html">← Back to Scholarship Radar</a></p>
+<h1>Privacy notice</h1>
+<p class="muted">Last updated 31 October 2026</p>
+
+<p>Scholarship Radar runs this website to help Master's and PhD students find research funding. This notice explains what we collect, why, and your rights under the Nigeria Data Protection Act 2023, the EU General Data Protection Regulation and similar laws.</p>
+
+<h2>What we collect</h2>
+<table>
+<tr><th>When</th><th>What</th><th>Where it's kept</th></tr>
+<tr><td>You use the matching tool or tracker</td><td>Nationality, study country, level, field, saved programmes</td><td>Only in your own browser. We never receive it.</td></tr>
+<tr><td>You join the founding member list</td><td>Name, email or WhatsApp number, plan interest, price you'd pay, your comment, and the profile above</td><td>Our database (Supabase)</td></tr>
+<tr><td>You report a problem</td><td>The programme, the problem type and your comment</td><td>Our database (Supabase)</td></tr>
+<tr><td>You visit any page</td><td>Anonymous visit counts: page, referring site, country, browser and device type</td><td>Cloudflare Web Analytics (no cookies, no personal profile)</td></tr>
+</table>
+<p>We don't collect ID numbers, passport details, payment details or your location. The site uses no advertising or tracking cookies.</p>
+
+<h2>Why we use it</h2>
+<p>Founding-member details are used only to contact you about the service and to decide pricing, based on your consent. Problem reports are used to correct listings. We never sell or rent your data.</p>
+
+<h2>How long we keep it</h2>
+<p>Waitlist details are kept until launch plus 12 months, or until you ask us to delete them. Problem reports are kept for 24 months to track corrections.</p>
+
+<h2>Who processes it</h2>
+<p>Our hosting and database providers (Cloudflare and Supabase) store data on our behalf under their data-processing terms. Data may be stored outside your country; we use providers with standard contractual protections.</p>
+
+<h2>Your rights</h2>
+<p>You can ask to see, correct or delete your data, or withdraw consent, at any time. We reply within 30 days. You can also complain to your data protection authority, such as the Nigeria Data Protection Commission.</p>
+
+<h2>Contact</h2>
+<p id="contact">Message us on the <a id="wa" href="https://whatsapp.com/channel/0029VbDYQnI6BIEkiEFVW30o">Scholarship Radar WhatsApp Channel</a>.</p>
+</main>
+<script src="config.js"></script>
+<script>
+(function(){var c=window.RADAR_CONFIG||{};
+ if(c.whatsappChannel) document.getElementById("wa").href=c.whatsappChannel;
+ if(c.contactEmail){var p=document.getElementById("contact");p.appendChild(document.createTextNode(" Or email "));
+  var a=document.createElement("a");a.href="mailto:"+c.contactEmail;a.textContent=c.contactEmail;p.appendChild(a);p.appendChild(document.createTextNode("."));}
+})();
+</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2f103b7d0e93457595493e44bba0224e"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
