@@ -2620,6 +2620,361 @@
    "checked": "2026-11-01",
    "url_checked": true,
    "verification": "official"
+  },
+  {
+   "id": "eso-studentship",
+   "name": "ESO Studentship Programme",
+   "provider": "European Southern Observatory (ESO)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Astronomy",
+    "Astrophysics"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Preferably enrolled in an ESO member state, but not required"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Enrolled in a PhD programme at an external university"
+   },
+   "host": "ESO Garching (Germany) or ESO Santiago (Chile)",
+   "amount": "not stated",
+   "covers": "One- to two-year studentship at ESO working on a thesis project",
+   "payment": "stipend",
+   "membership": "",
+   "recurrence": "Twice a year",
+   "window": "Deadlines 20 April and 20 October",
+   "months": [
+    4,
+    10
+   ],
+   "next_deadline": "2027-04-20",
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://www.eso.org/sci/activities/fellowships-and-studentships/FeSt-overview/ESOstudentship.html",
+   "notes": "Not a full PhD position: you stay enrolled at your home university and spend one to two years at ESO.",
+   "evidence": "There are two annual application deadlines: on April 20th and October 20th.",
+   "type_label": "Research stay",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "isa-phd-laboratory",
+   "name": "ISA International Laboratory for PhD Students in Sociology",
+   "provider": "International Sociological Association (ISA)",
+   "type": "conference_travel",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Sociology",
+    "Social sciences"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "not stated; selection applies diversity criteria"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "PhD students in sociology (early-career sociologists)"
+   },
+   "host": "Annual PhD laboratory (2026: Doha Institute for Graduate Studies, Qatar)",
+   "amount": "not stated (costs covered)",
+   "covers": "No participation fee; travel, accommodation and meals during the Lab",
+   "payment": "upfront",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "2026 participants already selected; next call not stated",
+   "months": [],
+   "next_deadline": null,
+   "status": "closed",
+   "dev_priority": false,
+   "url": "https://www.isa-sociology.org/isa-events/laboratory-for-phd-students-in-sociology",
+   "notes": "A week-long workshop, not cash. Watch for the next call; the theme changes each year.",
+   "evidence": "Travel to Doha, accommodation, and meals during the Lab will be covered",
+   "type_label": "Conference travel",
+   "status_label": "Closed this cycle",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "iciam-2027-grants",
+   "name": "ICIAM 2027 Grants for PhD and graduate students",
+   "provider": "ICIAM 2027 Congress (International Council for Industrial and Applied Mathematics)",
+   "type": "conference_travel",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "Applied mathematics",
+    "Industrial mathematics"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Any nationality"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Enrolled in a PhD or graduate programme in July 2027; poster abstract or minisymposium proposal first"
+   },
+   "host": "ICIAM 2027, The Hague, Netherlands (12–16 Jul 2027)",
+   "amount": "EUR 500 to 1,000",
+   "covers": "Part of the cost of attending the Congress",
+   "payment": "reimbursed",
+   "membership": "",
+   "recurrence": "Every four years (with each ICIAM Congress)",
+   "window": "Grant and abstract deadline 7 Dec 2026 (midnight CET)",
+   "months": [
+    12
+   ],
+   "next_deadline": "2026-12-07",
+   "status": "open",
+   "dev_priority": false,
+   "url": "https://iciam2027.org/about/grants/",
+   "notes": "Paid only after the Congress, and you must pay registration yourself by 9 Feb 2027. Submit your abstract before the grant form.",
+   "evidence": "Grant application deadline: 7 December 2026",
+   "type_label": "Conference travel",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "cern-doctoral-studentship",
+   "name": "CERN Doctoral Student Programme",
+   "provider": "CERN (European Organization for Nuclear Research)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Physics",
+    "Engineering",
+    "Computing",
+    "Mathematics"
+   ],
+   "nat_rule": {
+    "type": "list",
+    "values": [
+     "CERN Member States",
+     "CERN Associate Member States"
+    ],
+    "note": "National of a CERN Member or Associate Member State; some posts open to non-member nationals"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Your university must accept CERN research towards your doctoral thesis"
+   },
+   "host": "CERN, Geneva",
+   "amount": "CHF 3,907 net per month",
+   "covers": "Monthly allowance, health insurance, possible family supplement; 6 months renewable up to 3 years",
+   "payment": "stipend",
+   "membership": "",
+   "recurrence": "Rolling (per opening)",
+   "window": "Apply to advertised openings before each deadline",
+   "months": [],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": false,
+   "url": "https://careers.cern/programmes/doctoral-studentship/",
+   "notes": "Associate Member States include several developing countries; check the CERN list. Openings appear through the year.",
+   "evidence": "A monthly net allowance of 3907 Swiss Francs.",
+   "type_label": "Research stay",
+   "status_label": "Rolling / year-round",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "isa-convention-travel",
+   "name": "ISA Annual Convention Travel Grants",
+   "provider": "International Studies Association (ISA)",
+   "type": "conference_travel",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "International studies",
+    "Political science"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Aimed at junior scholars, senior graduate students and scholars from low-income countries"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Senior graduate students and junior scholars; ISA members only"
+   },
+   "host": "ISA Annual Convention (2027: Reykjavik, Iceland)",
+   "amount": "not stated (USD 211,200 shared by 288 awardees in 2026)",
+   "covers": "Assistance towards attending the convention",
+   "payment": "varies",
+   "membership": "ISA membership required",
+   "recurrence": "Annual",
+   "window": "2027 convention: applications 1 Jun to 1 Sep (closed)",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "next_deadline": null,
+   "status": "closed",
+   "dev_priority": true,
+   "url": "https://www.isanet.org/Programs/Grants/Travel-Grants",
+   "notes": "Members only. More than half of the 2026 awards went to Global South members.",
+   "evidence": "Only ISA members may qualify for an ISA Annual Convention travel grant.",
+   "type_label": "Conference travel",
+   "status_label": "Closed this cycle",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "ernst-mach-worldwide",
+   "name": "Ernst Mach Grant – worldwide",
+   "provider": "OeAD (Austria's Agency for Education and Internationalisation)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "All countries except Austria; age limit 35"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Doctoral/PhD students enrolled outside Austria (also recent graduates and postdocs); not in Austria in the previous six months"
+   },
+   "host": "Austrian universities and research institutions",
+   "amount": "not stated (supplementary monthly grant)",
+   "covers": "Research stay of 1 to 9 months in Austria",
+   "payment": "stipend",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "Online applications September to 1 December (for stays in academic year 2027/28)",
+   "months": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "next_deadline": "2026-12-01",
+   "status": "open",
+   "dev_priority": false,
+   "url": "https://oead.at/en/study-research-teaching/overview-grants-and-scholarships/ernst-mach-grant/faq-ernst-mach-grant-worldwide",
+   "notes": "A top-up grant that may not cover all costs. Not for enrolling in an Austrian degree. Long visa times for stays over six months.",
+   "evidence": "online application is possible from September to December 1st",
+   "type_label": "Research stay",
+   "status_label": "Open now",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "ernst-mach-asea-uninet",
+   "name": "Ernst Mach Grant – ASEA-UNINET",
+   "provider": "OeAD (Austria's Agency for Education and Internationalisation)",
+   "type": "research_stay",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "nat_rule": {
+    "type": "list",
+    "values": [
+     "Malaysia",
+     "Indonesia",
+     "Thailand",
+     "Philippines",
+     "Vietnam"
+    ],
+    "note": "From the five listed countries; age limit 35 for students"
+   },
+   "enrol_rule": {
+    "type": "list",
+    "note": "PhD students at an ASEA-UNINET member university in the five countries (also undergraduates/graduates and postdocs)"
+   },
+   "host": "Austrian universities",
+   "amount": "not stated",
+   "covers": "Study or research project in Austria",
+   "payment": "stipend",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "Closing date 1 March",
+   "months": [
+    3
+   ],
+   "next_deadline": "2027-03-01",
+   "status": "upcoming",
+   "dev_priority": true,
+   "url": "https://oead.at/en/to-austria/grants-and-scholarships/ernst-mach-grant/faq-ernst-mach-grant-worldwide",
+   "notes": "Only for students at ASEA-UNINET member universities in these five countries. Check your university is a member.",
+   "evidence": "Closing date for applications: 1st March",
+   "type_label": "Research stay",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
+  },
+  {
+   "id": "mofa-taiwan-fellowship",
+   "name": "MOFA Taiwan Fellowship",
+   "provider": "Ministry of Foreign Affairs, Taiwan (with National Central Library)",
+   "type": "research_stay",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Taiwan studies",
+    "Cross-strait relations",
+    "Asia-Pacific studies",
+    "Sinology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Foreign researchers"
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Doctoral candidates or doctoral programme students at overseas universities (also faculty and postdocs)"
+   },
+   "host": "Universities and research institutes in Taiwan",
+   "amount": "NT$50,000 per month for doctoral candidates",
+   "covers": "Monthly stipend, accident insurance; research stay of 3 to 12 months",
+   "payment": "stipend",
+   "membership": "",
+   "recurrence": "Annual",
+   "window": "Open May and June every year (2027 round: 1 May to 30 Jun 2026)",
+   "months": [
+    5,
+    6
+   ],
+   "next_deadline": null,
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://taiwanfellowship.ncl.edu.tw/eng/news_detail.aspx?sn=2724",
+   "notes": "Research must relate to Taiwan, cross-strait relations, Asia-Pacific or Sinology. Printed documents go to your nearest Taiwan office.",
+   "evidence": "open for application in May and June every year",
+   "type_label": "Research stay",
+   "status_label": "Opens soon (recurring)",
+   "checked": "2026-11-01",
+   "url_checked": true,
+   "verification": "official"
   }
  ],
  "excluded": [
