@@ -295,7 +295,9 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-s
 
   <!-- TRACKER -->
   <section class="view" id="v-tracker">
-    <div style="margin-top:18px" class="toolbar"><div><h2>My tracker</h2><p class="hint">Programmes you saved, with the documents each one usually needs. Premium adds WhatsApp and email reminders 30, 14 and 3 days before each deadline.</p></div></div>
+    <div style="margin-top:18px" class="toolbar"><div><h2>My tracker</h2><p class="hint">Programmes you saved, with the documents each one usually needs. Premium adds WhatsApp and email reminders 30, 14 and 3 days before each deadline.</p></div>
+      <button class="btn" type="button" id="ics-all" title="Works with Google Calendar, Apple Calendar and Outlook">Export deadlines to calendar (.ics)</button></div>
+    <p class="hint" style="margin-top:-4px">The calendar file has each confirmed deadline with reminders 30, 14 and 3 days before. For research stays and exchanges it also adds a reminder 35 days ahead to ask for your host and supervisor letters. Programmes without a confirmed date are left out. Always check the official page: dates can change.</p>
     <div class="cards" id="tracker-cards"></div>
   </section>
 
@@ -569,8 +571,54 @@ function renderTracker(p){
       '<div><b style="font-size:13px">Documents usually needed</b><div style="display:grid;gap:4px;margin-top:6px">'+
       docs.map(function(d,i){var k=id+"-"+i;return '<label class="check"><input type="checkbox" data-doc="'+esc(id)+'" data-i="'+i+'"'+((t.done||[]).indexOf(i)>=0?" checked":"")+'> '+esc(d)+'</label>';}).join("")+
       '</div></div><div class="card-foot"><span class="hint">'+((t.done||[]).length)+' of '+docs.length+' ready</span>'+
-      '<button class="btn small" type="button" data-track="'+esc(id)+'">Remove</button></div></article>';}).join("");
+      '<span>'+(icsDated(o)?'<button class="btn small" type="button" data-ics="'+esc(id)+'">Add to calendar</button> ':'')+
+      '<button class="btn small" type="button" data-track="'+esc(id)+'">Remove</button></span></div></article>';}).join("");
 }
+
+// ---------- calendar export (.ics) ----------
+var LETTER_TYPES = {research_stay:1, mobility:1};
+function icsDate(d){return d.getFullYear()+("0"+(d.getMonth()+1)).slice(-2)+("0"+d.getDate()).slice(-2);}
+function icsParse(s){var m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(s||""); return m?new Date(+m[1],+m[2]-1,+m[3]):null;}
+function icsToday(){var t=new Date(); return new Date(t.getFullYear(),t.getMonth(),t.getDate());}
+function icsDated(o){var d=icsParse(o.next_deadline); return !!(d && d>=icsToday());}
+function icsText(s){return String(s==null?"":s).replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g,"\\n");}
+function icsFold(line){var out=[],cur="",n=0;
+  for(var i=0;i<line.length;i++){var ch=line[i],b=unescape(encodeURIComponent(ch)).length;
+    if(n+b>(out.length?74:75)){out.push(cur);cur="";n=0;} cur+=ch;n+=b;}
+  out.push(cur); return out.join("\r\n ");}
+function icsEvent(uid, day, summary, desc, url, alarms){
+  var next=new Date(day.getFullYear(),day.getMonth(),day.getDate()+1);
+  var stamp=new Date().toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");
+  var L=["BEGIN:VEVENT","UID:"+uid,"DTSTAMP:"+stamp,"DTSTART;VALUE=DATE:"+icsDate(day),"DTEND;VALUE=DATE:"+icsDate(next),
+    "SUMMARY:"+icsText(summary),"DESCRIPTION:"+icsText(desc),"TRANSP:TRANSPARENT"];
+  if(url) L.push("URL:"+url);
+  (alarms||[]).forEach(function(a){L.push("BEGIN:VALARM","ACTION:DISPLAY","DESCRIPTION:"+icsText(a[1]),"TRIGGER:-P"+a[0]+"D","END:VALARM");});
+  L.push("END:VEVENT"); return L;}
+function icsFor(list){
+  var today=icsToday(), L=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Postgrad Funding Radar//Deadlines//EN","CALSCALE:GREGORIAN","METHOD:PUBLISH","X-WR-CALNAME:Postgrad funding deadlines"];
+  list.forEach(function(o){var d=icsParse(o.next_deadline); if(!d||d<today) return;
+    var desc=o.name+" ("+o.provider+")\nDeadline: "+o.next_deadline+"\nWindow: "+(o.window||"not stated")+"\nPays: "+(o.amount||"not stated")+
+      (o.notes?"\nNote: "+o.notes:"")+"\nOfficial page: "+o.url+"\nCheck the official page before applying: dates can change.\nFrom Postgrad Funding Radar";
+    var base=o.id+"-"+o.next_deadline;
+    var alarms=[[30,"30 days left: "+o.name],[14,"14 days left: "+o.name],[3,"3 days left: "+o.name]].filter(function(a){
+      return new Date(d.getFullYear(),d.getMonth(),d.getDate()-a[0])>=today;});
+    L=L.concat(icsEvent(base+"@postgrad-funding-radar.pages.dev",d,"Deadline: "+o.name,desc,o.url,alarms));
+    if(LETTER_TYPES[o.type]){var ask=new Date(d.getFullYear(),d.getMonth(),d.getDate()-35);
+      if(ask>=today) L=L.concat(icsEvent(base+"-letters@postgrad-funding-radar.pages.dev",ask,"Ask for host and supervisor letters: "+o.name,
+        "Suggested: invitation and support letters often take weeks. Deadline "+o.next_deadline+".\n"+desc,o.url,[]));}
+  });
+  L.push("END:VCALENDAR"); return L.map(icsFold).join("\r\n")+"\r\n";}
+function icsDownload(list, name){
+  var dated=list.filter(icsDated), skipped=list.length-dated.length;
+  if(!dated.length){toast(list.length?"None of these have a confirmed upcoming deadline yet":"Save programmes to your tracker first");return;}
+  var blob=new Blob([icsFor(dated)],{type:"text/calendar;charset=utf-8"}), a=document.createElement("a");
+  a.href=URL.createObjectURL(blob); a.download=name; document.body.appendChild(a); a.click();
+  setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},1000);
+  toast(dated.length+" deadline"+(dated.length>1?"s":"")+" exported"+(skipped?" · "+skipped+" without a confirmed date left out":""));}
+function trackedRecords(){return Object.keys(state.tracker).map(function(id){return (state.data||[]).filter(function(x){return x.id===id;})[0];}).filter(Boolean);}
+$("ics-all").addEventListener("click",function(){icsDownload(trackedRecords(),"postgrad-funding-deadlines.ics");});
+document.addEventListener("click",function(e){var b=e.target.closest("[data-ics]"); if(!b) return;
+  var o=(state.data||[]).filter(function(x){return x.id===b.dataset.ics;})[0]; if(o) icsDownload([o], o.id+".ics");});
 function saveTracker(){
   store("fr-tracker", state.tracker);
 }
