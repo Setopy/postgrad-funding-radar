@@ -12,6 +12,7 @@ Verified funding for students already enrolled in a Master's or PhD (research st
 | Waitlist and problem reports | Supabase tables `waitlist`, `reports` | Public key can only insert. Read them in the Supabase dashboard. |
 | Quality gate | `scripts/validate.py` | Cloudflare runs it before each deploy. A broken listing fails the build and the last good version stays live. |
 | Pipeline prompts | `pipeline_prompts.md` | Used by the daily scheduled task. |
+| Installable app | `site/manifest.webmanifest`, `site/sw.js` | The site installs to a home screen. The service worker is network-first, so daily listing updates need no changes to it; the saved copy is shown only when the device is offline. |
 
 ## Cloudflare Pages settings
 

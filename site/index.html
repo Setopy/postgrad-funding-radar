@@ -9,6 +9,9 @@
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#0b1a30">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Scholarship Radar">
 <meta property="og:site_name" content="Scholarship Radar">
 <meta property="og:title" content="Scholarship Radar | Scholarships and Postgrad Funding">
 <meta property="og:description" content="Verified scholarships, postdocs and funding for research stays and conferences. Checked on the funder's own page.">
@@ -127,6 +130,8 @@ textarea{min-height:90px}
 .btn:hover{border-color:var(--sweep)}
 .btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .btn.small{padding:4px 9px;font-size:12.5px}
+.btn[hidden]{display:none}
+nav.tabs #install-app{align-self:center;margin-left:4px}
 .toolbar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
 .chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 11px;font-size:12.5px;cursor:pointer;color:var(--ink)}
@@ -196,6 +201,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-s
       <a href="#kits" data-view="kits">Application kits</a>
       <a href="#plans" data-view="plans">Plans</a>
       <a href="#trust" data-view="trust">How we verify</a>
+      <button class="btn small" id="install-app" type="button" hidden>Install app</button>
     </nav>
   </div>
 </header>
@@ -824,12 +830,19 @@ window.addEventListener("hashchange",route); route();
 // ---------- data ----------
 state.tracker = store("fr-tracker") || {};
 function useData(d, fromDb){ state.data=d.opportunities; state.meta=d.meta||state.meta; if(d.excluded) state.excluded=d.excluded; state.fromDb=!!fromDb;
-  $("data-note").innerHTML = ''; render(); renderTrust(state.qa); }
+  $("data-note").innerHTML = navigator.onLine===false ? '<div class="panel">You are offline. These are the listings saved on your last visit'+(state.meta&&state.meta.generated?' (updated '+esc(state.meta.generated)+')':'')+'. Deadlines may have changed: confirm on the funder\'s page.</div>' : ''; render(); renderTrust(state.qa); }
 fetch("data/opportunities.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(d){ useData(d,false); })
   .catch(function(){ $("cards").innerHTML='<div class="panel empty">Listings could not load. Refresh the page to try again.</div>'; });
 fetch("data/featured.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).then(function(f){ if(f){ state.featured=f; renderFeatured(); } }).catch(function(){});
 fetch("data/scholarships.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).then(function(d){ if(d){ state.sch=d; renderScholarships(); } }).catch(function(){});
 fetch("data/qa.json",{cache:"no-cache"}).then(function(r){return r.json();}).then(function(q){ if(q && q.date){ state.qa=q; if(state.data) renderTrust(q);} }).catch(function(){});
+
+// ---------- installable app ----------
+if("serviceWorker" in navigator){ navigator.serviceWorker.register("/sw.js").catch(function(){}); }
+(function(){ var b=$("install-app"), deferred=null; if(!b) return;
+  window.addEventListener("beforeinstallprompt",function(e){ e.preventDefault(); deferred=e; b.hidden=false; });
+  b.addEventListener("click",function(){ if(!deferred) return; deferred.prompt(); deferred=null; b.hidden=true; });
+  window.addEventListener("appinstalled",function(){ b.hidden=true; }); })();
 })();
 </script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2f103b7d0e93457595493e44bba0224e"}'></script><!-- End Cloudflare Web Analytics -->
