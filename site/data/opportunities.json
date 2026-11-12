@@ -1,12 +1,12 @@
 {
  "meta": {
-  "generated": "2026-11-12",
-  "count": 125,
+  "generated": "2026-11-13",
+  "count": 130,
   "version": 1,
   "verification_counts": {
-   "official": 114,
-   "secondary": 4,
-   "needs_check": 7
+   "official": 123,
+   "secondary": 3,
+   "needs_check": 4
   }
  },
  "opportunities": [
@@ -80,10 +80,10 @@
    "status": "closed",
    "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57862427",
    "url_checked": true,
-   "verification": "secondary",
+   "verification": "official",
    "dev_priority": true,
    "notes": "No call open now; the 2026 round is finished. DAAD updates deadlines each year in the second quarter.",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "membership": "",
    "next_deadline": null,
    "months": [
@@ -125,7 +125,7 @@
    "verification": "official",
    "dev_priority": false,
    "notes": "No postdoctoral scholarships from 2027–28. Many country deadlines fall Oct–Dec 2026: check your country's page now. Beware phishing offers using this name.",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "membership": "",
    "next_deadline": null,
    "months": [
@@ -135,7 +135,8 @@
     11
    ],
    "type_label": "Research stay",
-   "status_label": "Open now"
+   "status_label": "Open now",
+   "evidence": "access available from 20 August 2026"
   },
   {
    "id": "csc-split-site",
@@ -167,7 +168,7 @@
    "verification": "official",
    "dev_priority": true,
    "notes": "Paused: will not run in 2026 or 2027.",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "membership": "",
    "next_deadline": null,
    "url_checked": true,
@@ -212,7 +213,7 @@
    "verification": "official",
    "dev_priority": true,
    "notes": "Open now. For PhD students in developing countries enrolled at their home university; women and young researchers get priority.",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "membership": "",
    "next_deadline": "2027-02-28",
    "url_checked": true,
@@ -256,7 +257,7 @@
    "verification": "official",
    "dev_priority": true,
    "notes": "Women only. OWSD announced no PhD call in 2025 because of funding; check for a 2026/27 call.",
-   "checked": "2026-11-10",
+   "checked": "2026-11-13",
    "membership": "",
    "next_deadline": null,
    "url_checked": true,
@@ -267,7 +268,8 @@
     5
    ],
    "type_label": "Research stay",
-   "status_label": "Paused"
+   "status_label": "Paused",
+   "evidence": "OWSD regrets there will be no call for PhD applications in 2025"
   },
   {
    "id": "embo-seg",
@@ -293,19 +295,20 @@
    "covers": "Travel, subsistence (not courses, bench fees or visa)",
    "payment": "stipend",
    "recurrence": "Rolling",
-   "window": "Applications accepted all year",
+   "window": "Year-round; apply at least 30 days (ideally 3 months) before the visit",
    "status": "rolling",
    "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/",
    "verification": "official",
    "dev_priority": false,
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "membership": "",
    "notes": "",
    "next_deadline": null,
    "url_checked": true,
    "months": [],
    "type_label": "Research stay",
-   "status_label": "Rolling / year-round"
+   "status_label": "Rolling / year-round",
+   "evidence": "Applications accepted throughout the year."
   },
   {
    "id": "bif-travel",
@@ -334,19 +337,20 @@
    "covers": "Travel, lodging, course fees (not living costs or visa)",
    "payment": "varies",
    "recurrence": "Rolling",
-   "window": "Apply well before the stay",
+   "window": "Apply 6 weeks to 6 months before departure",
    "status": "rolling",
    "url": "https://bifonds.de/fellowships-grants/travel-grants/who-can-apply-travel-grants.html",
    "verification": "official",
    "notes": "Stays of up to 3 months. Non-Europeans qualify only if their PhD is in Europe or the visit is to Europe.",
-   "checked": "2026-11-10",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "",
    "next_deadline": null,
    "url_checked": true,
    "months": [],
    "type_label": "Research stay",
-   "status_label": "Rolling / year-round"
+   "status_label": "Rolling / year-round",
+   "evidence": "no later than six weeks and no earlier than six months prior"
   },
   {
    "id": "cob-travelling",
@@ -378,7 +382,7 @@
    "url_checked": true,
    "verification": "official",
    "notes": "Offered via Development, Journal of Cell Science and JEB; one applicant per lab per round, once every two years. Not for training courses.",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "",
    "next_deadline": "2027-02-05",
@@ -410,7 +414,7 @@
    },
    "enrol_rule": {
     "type": "developing",
-    "note": "Graduate student in a developing country"
+    "note": "Based in a developing country (IMU definition); at least 24 months into a maths PhD at the deadline (or up to 12 months after defence); under 35. Online system opens 15 Nov 2026."
    },
    "host": "Worldwide",
    "amount": "Up to USD 5,000 for a one-month research visit",
@@ -423,7 +427,7 @@
    "verification": "official",
    "dev_priority": true,
    "notes": "Mathematics PhD students based in a developing country, at least two years into the PhD or within a year of the defence, under 35. Covers the applicant only.",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "membership": "",
    "next_deadline": "2027-06-01",
    "url_checked": true,
@@ -461,17 +465,18 @@
    "recurrence": "Institution-level calls",
    "window": "Set by each university",
    "status": "monitor",
-   "url": "https://erasmus-plus.ec.europa.eu/",
+   "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/studying-abroad",
    "url_checked": true,
-   "verification": "needs_check",
+   "verification": "official",
    "notes": "Calls run through each university's international office; the EU homepage gives no doctoral-mobility dates.",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "",
    "next_deadline": null,
    "months": [],
    "type_label": "Mobility",
-   "status_label": "Recurring – watch for next call"
+   "status_label": "Recurring – watch for next call",
+   "evidence": "short-term mobility: between 5 and 30 days abroad"
   },
   {
    "id": "ieee-qce-travel",
@@ -534,7 +539,8 @@
     "type": "any"
    },
    "enrol_rule": {
-    "type": "any"
+    "type": "any",
+    "note": "Full-time student (high school, undergraduate or graduate), current SPIE Student Member, accepted paper; one award every two years"
    },
    "host": "SPIE meetings",
    "amount": "Up to USD 700 domestic / USD 1,000 international airfare and lodging, plus registration waiver",
@@ -546,14 +552,15 @@
    "status": "rolling",
    "url": "https://lux.spie.org/membership/student-hub/student-conference-support",
    "verification": "needs_check",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "notes": "Student Members with an accepted paper; one award every 2 years; reimbursed after the conference. Page shows only old deadlines, so check each meeting.",
    "next_deadline": null,
    "url_checked": true,
    "months": [],
    "type_label": "Conference travel",
-   "status_label": "Rolling / year-round"
+   "status_label": "Rolling / year-round",
+   "evidence": "Up to $700 for domestic airfare/lodging; up to $1,000 for international"
   },
   {
    "id": "optica-milton-chang",
@@ -572,7 +579,8 @@
     "type": "any"
    },
    "enrol_rule": {
-    "type": "any"
+    "type": "any",
+    "note": "Current Optica student member with an accepted FiO paper; must show need for travel support"
    },
    "host": "Frontiers in Optics + Laser Science",
    "amount": "USD 1,000 (7 grants)",
@@ -585,7 +593,7 @@
    "url": "https://optica.org/foundation/opportunities/scholarships/incubic_milton_travel_grant_fio",
    "verification": "official",
    "notes": "Optica Foundation runs several other student travel grants — add each to the registry.",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "next_deadline": null,
    "url_checked": true,
@@ -594,7 +602,8 @@
     5
    ],
    "type_label": "Conference travel",
-   "status_label": "Opens soon (recurring)"
+   "status_label": "Opens soon (recurring)",
+   "evidence": "Paper Submission Deadline: 26 May 2026"
   },
   {
    "id": "ieee-photonics-travel",
@@ -615,7 +624,7 @@
     "type": "any"
    },
    "host": "IEEE Photonics conferences",
-   "amount": "Historically ~USD 2,500 per grant (verify)",
+   "amount": "USD 2,500 (2024 call; no newer call found)",
    "covers": "Travel, lodging, registration",
    "payment": "reimbursed",
    "membership": "IEEE Photonics Society member; advisor sponsorship",
@@ -624,7 +633,7 @@
    "status": "monitor",
    "url": "https://ieeephotonics.org/announcements/ieee-summer-topicals-student-young-professionals-travel-grant-program/",
    "verification": "secondary",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "notes": "Only the 2024 Summer Topicals call is on the official site; no newer call found. Needs IEEE Photonics Society membership.",
    "next_deadline": null,
@@ -632,7 +641,7 @@
    "months": [],
    "type_label": "Conference travel",
    "status_label": "Recurring – watch for next call",
-   "evidence": ""
+   "evidence": "Grantees chosen will receive $2,500 USD to help cover travel, lodging"
   },
   {
    "id": "google-conf-scholarships",
@@ -673,7 +682,7 @@
    "months": [],
    "type_label": "Conference travel",
    "status_label": "Recurring – watch for next call",
-   "evidence": ""
+   "evidence": "not stated"
   },
   {
    "id": "sigplan-pac",
@@ -702,7 +711,7 @@
    "status": "rolling",
    "url": "https://www.sigplan.org/PAC/",
    "verification": "official",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "",
    "notes": "",
@@ -710,7 +719,8 @@
    "url_checked": true,
    "months": [],
    "type_label": "Conference travel",
-   "status_label": "Rolling / year-round"
+   "status_label": "Rolling / year-round",
+   "evidence": "at least four weeks before the early registration deadline"
   },
   {
    "id": "acm-w-scholarship",
@@ -741,7 +751,7 @@
    "url": "https://women.acm.org/scholarships",
    "verification": "official",
    "notes": "One-time award; advisor support letter required. Grace Hopper and Tapia excluded. Dec 15 round covers conferences 1 Feb–31 Mar 2027.",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "",
    "next_deadline": "2026-12-15",
@@ -787,7 +797,7 @@
    "url": "https://aisnet.org/page/TravelGrants",
    "verification": "official",
    "dev_priority": true,
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "membership": "",
    "notes": "Registration and membership fees not covered. Next call expected January.",
    "next_deadline": null,
@@ -866,7 +876,7 @@
     "note": "Studying/working in home or another developing country"
    },
    "host": "Two-month visit to your alma mater lab or a collaborating institution",
-   "amount": "EUR 5,000 per fellowship (3 grants in 2026)",
+   "amount": "Grant in EUR, normally equivalent to USD 5,000 (3 grants in 2026)",
    "covers": "Travel",
    "payment": "varies",
    "recurrence": "Annual",
@@ -875,7 +885,7 @@
    "url": "https://www.ictp.it/news/2026/2/aps-eps-ictp-travel-award-fellowship-programme-2026",
    "verification": "official",
    "dev_priority": true,
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "membership": "",
    "notes": "Two-month lab visit, not conference travel. Needs a letter of agreement from the host lab.",
    "next_deadline": null,
@@ -885,7 +895,8 @@
     3
    ],
    "type_label": "Research stay",
-   "status_label": "Opens soon (recurring)"
+   "status_label": "Opens soon (recurring)",
+   "evidence": "by 31 March in the year of the intended Fellowship"
   },
   {
    "id": "ibro-sfn",
@@ -914,7 +925,7 @@
    "url": "https://ibro.org/grant/ibro-sfn-travel-grants/",
    "verification": "official",
    "notes": "IBRO also runs other travel and exchange grants worth adding.",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "",
    "next_deadline": null,
@@ -956,13 +967,14 @@
    "verification": "official",
    "dev_priority": true,
    "notes": "686 grants were awarded for ICM 2026 from ~2,000 applications.",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "membership": "",
    "next_deadline": null,
    "url_checked": true,
    "months": [],
    "type_label": "Conference travel",
-   "status_label": "Closed this cycle"
+   "status_label": "Closed this cycle",
+   "evidence": "686 ICM2026 Travel Grants Awarded"
   },
   {
    "id": "csndsp-travel",
@@ -994,7 +1006,7 @@
    "url": "https://eng.ed.ac.uk/csndsp-2026/authors-centre/support-grants",
    "verification": "official",
    "dev_priority": true,
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "membership": "",
    "notes": "",
    "next_deadline": null,
@@ -1003,7 +1015,8 @@
     5
    ],
    "type_label": "Conference travel",
-   "status_label": "Closed this cycle"
+   "status_label": "Closed this cycle",
+   "evidence": "Travel Grant Application Form (Deadline, 23 May 2026)"
   },
   {
    "id": "esg-travel",
@@ -1026,21 +1039,23 @@
     "type": "any"
    },
    "host": "20th ESG Conference, Uppsala, Sweden, 20-24 Sep 2027",
-   "amount": "Travel grant",
+   "amount": "Up to GBP 1,275 incl. registration fee waiver (2026 edition)",
    "covers": "Travel",
    "payment": "varies",
    "recurrence": "Annual",
-   "window": "2027 conference announced; travel grant call not yet posted",
+   "window": "2026 call ran 1–30 April; 2027 conference (Uppsala, 20–24 Sep) announced, grant call not yet posted",
    "status": "monitor",
    "url": "https://www.earthsystemgovernance.org/",
-   "verification": "needs_check",
+   "verification": "official",
    "dev_priority": true,
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "membership": "",
    "notes": "",
    "next_deadline": null,
    "url_checked": true,
-   "months": [],
+   "months": [
+    4
+   ],
    "type_label": "Conference travel",
    "status_label": "Recurring – watch for next call",
    "evidence": "will host the 20th Conference on Earth System Governance, 20-24 September 2027"
@@ -1072,7 +1087,7 @@
    "status": "monitor",
    "url": "https://ecsrnet.eu/?p=2003",
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "",
    "notes": "2026 round ran 13–20 Feb 2026; no 2027 dates yet.",
@@ -1117,7 +1132,7 @@
    "url": "https://www.triplesr.org/travel-awards",
    "verification": "official",
    "dev_priority": true,
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "membership": "",
    "notes": "Covers registration and hotel, not flights. You need a paper accepted at SSSR 2027.",
    "next_deadline": "2027-01-22",
@@ -1154,17 +1169,20 @@
    "membership": "ESHMS member; accepted abstract",
    "recurrence": "Biennial",
    "window": "With the conference",
-   "status": "monitor",
+   "status": "closed",
    "url": "https://eshms.eu/wp-content/uploads/2026/03/ESHMS-Conference-Travel-Grants-2026.pdf",
    "verification": "official",
    "dev_priority": true,
    "notes": "Priority for LMIC applicants.",
-   "checked": "2026-11-10",
+   "checked": "2026-11-13",
    "next_deadline": null,
    "url_checked": true,
-   "months": [],
+   "months": [
+    4
+   ],
    "type_label": "Conference travel",
-   "status_label": "Recurring – watch for next call"
+   "status_label": "Closed this cycle",
+   "evidence": "Closing date: 20 April 2026"
   },
   {
    "id": "wenner-gren-dfg",
@@ -1195,7 +1213,7 @@
    "status": "upcoming",
    "url": "https://wennergren.org/program/dissertation-fieldwork-grant/",
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "",
    "notes": "The 1 Nov 2026 round has closed; the next round closes 1 May (projects Jan–Jun next year). Portal opens two months before each deadline.",
@@ -1239,7 +1257,7 @@
    "url": "https://eisa-net.org/eisa-dissertation-fieldwork-support-grant/",
    "verification": "official",
    "notes": "Members only, and you must show you lack fieldwork funding. Prioritises researchers facing precarity and structural inequality.",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "Active EISA membership at application and during travel",
    "next_deadline": "2027-05-13",
@@ -1251,52 +1269,6 @@
    "type_label": "Fieldwork",
    "status_label": "Opens soon (recurring)",
    "evidence": "EISA members enrolled in PhD programs"
-  },
-  {
-   "id": "codesria-small-grants",
-   "name": "CODESRIA Small Grants Programme for Thesis Writing",
-   "provider": "CODESRIA",
-   "type": "thesis_completion",
-   "levels": [
-    "MSc",
-    "PhD"
-   ],
-   "fields": [
-    "Social sciences",
-    "Humanities"
-   ],
-   "nat_rule": {
-    "type": "region",
-    "values": [
-     "Africa"
-    ]
-   },
-   "enrol_rule": {
-    "type": "region",
-    "values": [
-     "Africa"
-    ],
-    "note": "Registered at an African university"
-   },
-   "host": "Home institution",
-   "amount": "Historically up to USD 5,000",
-   "covers": "Thesis writing, fieldwork, books",
-   "payment": "varies",
-   "recurrence": "Irregular",
-   "window": "Unclear",
-   "status": "closed",
-   "url": "https://codesria.org/grants-fellowships/",
-   "verification": "needs_check",
-   "dev_priority": true,
-   "notes": "CODESRIA lists this only as a past programme; the current MRI call needs a PhD and does not fund theses.",
-   "checked": "2026-11-12",
-   "membership": "",
-   "next_deadline": null,
-   "url_checked": true,
-   "months": [],
-   "type_label": "Thesis completion",
-   "status_label": "Closed this cycle",
-   "evidence": ""
   },
   {
    "id": "ssrc-nextgen-africa",
@@ -1338,7 +1310,7 @@
    "url": "https://www.ssrc.org/programs/african-peacebuilding-and-developmental-dynamics-apdd/awards-and-fellowships/doctoral-dissertation-research-fellowship/",
    "verification": "needs_check",
    "dev_priority": true,
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "membership": "",
    "notes": "Programme renamed from Next Gen/APN to APDD. Only for students at universities in six African countries; the 2027 call is not posted yet.",
    "next_deadline": null,
@@ -1386,7 +1358,7 @@
    "url": "https://inlaksfoundation.org/irtg/inlaks-travel-and-research-grant/",
    "url_checked": true,
    "verification": "secondary",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "dev_priority": false,
    "membership": "",
    "notes": "Indian passport holders living in India only. Most costs reimbursed on actuals.",
@@ -1438,7 +1410,7 @@
    "evidence": "Deadline 31 Dec 2027",
    "type_label": "Research stay",
    "status_label": "Open now",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -1482,7 +1454,7 @@
    "evidence": "will open in January 2027, with a final application deadline of 31 March 2027",
    "type_label": "Research stay",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -1525,7 +1497,7 @@
    "evidence": "enrolled in a PhD program or have received their PhD within the past five years",
    "type_label": "Research stay",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -1570,7 +1542,7 @@
    "evidence": "1 March 2027 for visits after 1 April 2027",
    "type_label": "Research stay",
    "status_label": "Rolling / year-round",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -1615,7 +1587,7 @@
    "evidence": "1 March 2027 for meetings taking place after 1 April 2027",
    "type_label": "Conference travel",
    "status_label": "Rolling / year-round",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -1658,7 +1630,7 @@
    "evidence": "Application Closes: December 4, 2026",
    "type_label": "Conference travel",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -1702,7 +1674,7 @@
    "evidence": "grant funds will be issued to recipients at the Congress in Rome",
    "type_label": "Conference travel",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -1791,7 +1763,7 @@
    "evidence": "the 9th of January, February, March, May, July, September, and November",
    "type_label": "Conference travel",
    "status_label": "Open now",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -1840,7 +1812,7 @@
    "evidence": "Application period from 1 November 2026 to 10 December 2026",
    "type_label": "Research stay",
    "status_label": "Open now",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -1974,7 +1946,7 @@
    "evidence": "Round 1 applications open on 01 March – deadline 01 May",
    "type_label": "Research stay",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2016,7 +1988,7 @@
    "evidence": "The closing date for applications is 31 March each year.",
    "type_label": "Fieldwork",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2063,7 +2035,7 @@
    "evidence": "The closing date for applications is 31 March each year.",
    "type_label": "Fieldwork",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2109,7 +2081,7 @@
    "evidence": "The closing dates for applications are 30 April and 30 November each year.",
    "type_label": "Thesis completion",
    "status_label": "Open now",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2181,7 +2153,6 @@
    "window": "2027 schools listed; deadlines from 15 Nov 2026 to 8 Jul 2027 (one per school)",
    "months": [
     11,
-    12,
     1,
     2,
     3,
@@ -2195,7 +2166,7 @@
    "evidence": "From Statistical Inference to Learning Methods ... 15 Nov 2026",
    "type_label": "Conference travel",
    "status_label": "Open now",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2237,7 +2208,7 @@
    "evidence": "Applicants from all countries are eligible.",
    "type_label": "Conference travel",
    "status_label": "Rolling / year-round",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2266,7 +2237,7 @@
     "note": "Must hold an MSc or higher; maximum age 40 on 31 Dec; not already in Italy"
    },
    "host": "Research institutions in Friuli Venezia Giulia, Italy (e.g. SISSA, Trieste)",
-   "amount": "not stated",
+   "amount": "Travel expenses and subsistence costs for the stay in Italy",
    "covers": "Travel expenses and subsistence for a three-month stay",
    "payment": "stipend",
    "membership": "",
@@ -2283,7 +2254,7 @@
    "evidence": "Applicants must be nationals of a least developed country",
    "type_label": "Research stay",
    "status_label": "Open now",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2411,7 +2382,7 @@
    "evidence": "deadlines falling on January 10th (Spring Cycle) and July 15th (Fall Cycle)",
    "type_label": "Fieldwork",
    "status_label": "Open now",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2469,7 +2440,7 @@
    "evidence": "When to apply July 15",
    "type_label": "Small grant",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2515,7 +2486,7 @@
    "evidence": "Applications: 1 Dec 2026 - 15 Apr 2027",
    "type_label": "Research stay",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2558,7 +2529,7 @@
    "evidence": "Applicants from everywhere in the world are eligible to apply",
    "type_label": "Conference travel",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2651,7 +2622,7 @@
    "evidence": "There are two annual application deadlines: on April 20th and October 20th.",
    "type_label": "Research stay",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2734,7 +2705,7 @@
    "evidence": "Grant application deadline: 7 December 2026",
    "type_label": "Conference travel",
    "status_label": "Open now",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2780,7 +2751,7 @@
    "evidence": "Currently, there are no open positions for these Fields of Work.",
    "type_label": "Research stay",
    "status_label": "Recurring – watch for next call",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2825,7 +2796,7 @@
    "evidence": "Only ISA members may qualify for an ISA Annual Convention travel grant.",
    "type_label": "Conference travel",
    "status_label": "Closed this cycle",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "needs_check"
   },
@@ -2869,7 +2840,7 @@
    "evidence": "The application deadline for this grant is December 1st, 2026, 23:59",
    "type_label": "Research stay",
    "status_label": "Open now",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -2918,7 +2889,7 @@
    "evidence": "Closing date for applications: 1st March",
    "type_label": "Research stay",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3008,7 +2979,7 @@
    "evidence": "The grants, if approved, will be on a reimbursement basis",
    "type_label": "Conference travel",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3132,7 +3103,7 @@
    "evidence": "Scientists working in a country with a high GDP are not eligible.",
    "type_label": "Conference travel",
    "status_label": "Open now",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3261,7 +3232,7 @@
    "evidence": "Application Deadlines: Round 1: 1 April Round 2: 1 October",
    "type_label": "Conference travel",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3346,7 +3317,7 @@
    "evidence": "The deadline to submit your materials is 15 October 2026",
    "type_label": "Fieldwork",
    "status_label": "Closed this cycle",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3440,7 +3411,7 @@
    "evidence": "Each grant provides a waiver of the registration fee.",
    "type_label": "Conference travel",
    "status_label": "Open now",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3475,14 +3446,14 @@
     9
    ],
    "next_deadline": "2027-03-01",
-   "status": "upcoming",
+   "status": "open",
    "dev_priority": false,
    "url": "https://fems-microbiology.org/about_fems/network-and-activities/grants/fems-meeting-attendance-grants/",
    "notes": "Apply well before the meeting: each deadline covers meetings starting two months later. You must present.",
    "evidence": "1 March 2027 23:59 CEST for meetings taking place between 1 May 2027",
    "type_label": "Conference travel",
-   "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "status_label": "Open now",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3567,7 +3538,7 @@
    "evidence": "closing at midnight CEST (UTC+2) on 31st March and 30th September",
    "type_label": "Fieldwork",
    "status_label": "Opens soon (recurring)",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3610,7 +3581,7 @@
    "evidence": "The awarded budget will support fieldwork by master's students.",
    "type_label": "Fieldwork",
    "status_label": "Open now",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3661,7 +3632,7 @@
    "evidence": "Eligibility is restricted to GSA members.",
    "type_label": "Fieldwork",
    "status_label": "Closed this cycle",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "url_checked": true,
    "verification": "official"
   },
@@ -3703,7 +3674,7 @@
    "url": "https://www.iamcr.org/travel_grants",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "notes": "You need a full year of IAMCR membership before applying, plus an accepted abstract. Replaces the discontinued Bersay grants.",
    "evidence": "Deadline: 20 March 2026"
   },
@@ -3711,7 +3682,7 @@
    "type": "conference_travel",
    "type_label": "Conference travel",
    "url_checked": true,
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "id": "aag-student-travel-grants",
    "name": "AAG Student Travel Grants (AAG 2027 Annual Meeting)",
    "provider": "American Association of Geographers (AAG)",
@@ -3756,7 +3727,7 @@
    "type": "conference_travel",
    "type_label": "Conference travel",
    "url_checked": true,
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "id": "eshg-2027-conference-fellowships",
    "name": "ESHG 2027 Conference Fellowships",
    "provider": "European Society of Human Genetics (ESHG)",
@@ -3801,7 +3772,7 @@
    "type": "conference_travel",
    "type_label": "Conference travel",
    "url_checked": true,
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "id": "ieee-aps-ursi-2027-student-travel",
    "name": "IEEE AP-S/URSI 2027 Student Travel Grants",
    "provider": "IEEE Antennas and Propagation Society (AP-S)",
@@ -3821,33 +3792,33 @@
    },
    "enrol_rule": {
     "type": "any",
-    "note": "MS or PhD students with a first-author paper submitted to the conference"
+    "note": "General category: first- or second-year PhD students only. African and Latin American categories: undergraduate, graduate or postdoc. IEEE AP-S Student membership required."
    },
    "host": "Kyoto, Japan (20–25 June 2027)",
-   "amount": "USD 500–1,500 per student (pool up to USD 72,000)",
+   "amount": "not stated (partial financial support)",
    "covers": "Partial travel support",
    "payment": "reimbursed",
    "membership": "IEEE AP-S Student Membership required",
    "recurrence": "Annual, with each AP-S/URSI symposium",
-   "window": "Online application by 15 February 2027",
+   "window": "Online application by 1 February 2027; awardees announced 1 June 2027",
    "months": [
     1,
     2
    ],
-   "next_deadline": "2027-02-15",
+   "next_deadline": "2027-02-01",
    "status": "open",
    "dev_priority": true,
    "url": "https://2027.apsursi.org/student_travel_grant.php",
    "verification": "official",
    "notes": "Must submit a first-author paper and attend in person; funds are wired only after you attend. One nominee per supervisor.",
-   "evidence": "Deadline for online application submissions: 15 February 2027",
+   "evidence": "Deadline for online application submissions: 1 February 2027",
    "status_label": "Open now"
   },
   {
    "type": "conference_travel",
    "type_label": "Conference travel",
    "url_checked": true,
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "id": "acc-2027-student-travel",
    "name": "ACC 2027 Student Travel Grants",
    "provider": "American Automatic Control Council (AACC)",
@@ -3892,7 +3863,7 @@
    "type": "conference_travel",
    "type_label": "Conference travel",
    "url_checked": true,
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "id": "icops-2027-student-travel",
    "name": "IEEE ICOPS 2027 Student Travel Grants",
    "provider": "IEEE Nuclear and Plasma Sciences Society (ICOPS organisers)",
@@ -3936,7 +3907,7 @@
    "type": "conference_travel",
    "type_label": "Conference travel",
    "url_checked": true,
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "id": "isa-wc2027-registration-grants",
    "name": "ISA XXI World Congress of Sociology Registration Grants",
    "provider": "International Sociological Association (ISA)",
@@ -3980,7 +3951,7 @@
    "type": "conference_travel",
    "type_label": "Conference travel",
    "url_checked": true,
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "id": "goldschmidt-conference-grants",
    "name": "Goldschmidt Conference Grants",
    "provider": "Geochemical Society and European Association of Geochemistry",
@@ -4023,7 +3994,7 @@
    "type": "conference_travel",
    "type_label": "Conference travel",
    "url_checked": true,
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "id": "aps-dls-student-travel",
    "name": "APS Division of Laser Science Student Travel Grants",
    "provider": "American Physical Society – Division of Laser Science (DLS)",
@@ -4108,7 +4079,7 @@
    "url": "https://www.animalbehaviorsociety.org/web/awards-srg.php",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "notes": "Student Research Grants need active ABS membership, and the page does not say whether the Developing Nations grant does. You can get one ABS research grant in your lifetime, but a Developing Nations grant does not count towards that limit.",
    "evidence": "Grant Submission deadline is December 15, 2026 at 11:59 PM PST."
   },
@@ -4151,7 +4122,7 @@
    "url": "https://www.ijurr.org/ijurr-foundation/grants/writing-up-grants/application/",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "notes": "The page also keeps an undated \"received by 31 January\" line; apply early to be safe. References are due 5 March.",
    "evidence": "will be open 4th January 2027 – 5th March 2027"
   },
@@ -4187,15 +4158,15 @@
     2,
     3
    ],
-   "next_deadline": "2027-02-01",
+   "next_deadline": "2027-01-31",
    "status": "upcoming",
    "status_label": "Opens soon (recurring)",
    "dev_priority": false,
    "url": "https://www.hfg.org/emerging-scholars/",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
-   "notes": "Only for dissertations on violence or aggression, and you must expect to finish within the award year. It is a two-stage process: a letter of interest first, then a full proposal only if invited.",
+   "checked": "2026-11-13",
+   "notes": "Only for dissertations on violence or aggression, and you must expect to finish within the award year. It is a two-stage process: a letter of interest first, then a full proposal only if invited. The page gives both 31 January and 1 February; we list 31 January to be safe.",
    "evidence": "submitted by February 1, at 11:59.00 p.m. ET"
   },
   {
@@ -4237,7 +4208,7 @@
    "url": "https://sigmaxi.secure-platform.com/a/page/guidelines",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "notes": "Non-members can get only up to $1,000. Conference travel, tuition, stipends and standard lab supplies are not funded. Undergraduates can also apply.",
    "evidence": "US Citizenship and residence not required. International applications are welcome."
   },
@@ -4281,7 +4252,7 @@
    "url": "https://www.primate.org/grant_in.htm",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "notes": "Proposals with matching funds get priority. Conferences, tuition, salaries and overheads are not funded.",
    "evidence": "Deadlines ... February 1st and September 20th."
   },
@@ -4370,7 +4341,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "id": "aacr-am27-global-scholar-in-training",
    "name": "AACR Global Scholar-in-Training Awards (GSITA) – AACR Annual Meeting 2027",
    "provider": "American Association for Cancer Research (AACR)",
@@ -4390,7 +4361,7 @@
     "note": "Full-time graduate students engaged in doctoral research (also residents/postdocs/early-career); first author and presenter of an Annual Meeting abstract"
    },
    "host": "AACR Annual Meeting 2027, Orlando, Florida, USA, 2–7 April 2027",
-   "amount": "not stated",
+   "amount": "In kind: round-trip airfare, registration, AACR-paid hotel, plus a stipend for meals and other travel costs",
    "covers": "Round-trip airfare, meeting registration, hotel paid by AACR, meal and travel stipend",
    "payment": "upfront",
    "membership": "AACR Student or Associate Member in good standing (nonmembers apply for membership first)",
@@ -4414,7 +4385,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "id": "aacr-am27-scholar-in-training",
    "name": "AACR Scholar-in-Training Awards – AACR Annual Meeting 2027",
    "provider": "American Association for Cancer Research (AACR)",
@@ -4458,7 +4429,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "id": "asm-microbe27-student-postdoc-travel",
    "name": "ASM Student and Postdoctoral Travel Award – ASM Microbe 2027",
    "provider": "American Society for Microbiology (ASM)",
@@ -4502,7 +4473,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "id": "asm-microbe27-halde-latin-america",
    "name": "Carlyn Halde Latin American Student Travel Award – ASM Microbe 2027",
    "provider": "American Society for Microbiology (ASM)",
@@ -4551,7 +4522,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "id": "aspet-2027-travel-award",
    "name": "ASPET 2027 Annual Meeting Travel Awards (students/postdocs)",
    "provider": "American Society for Pharmacology and Experimental Therapeutics (ASPET)",
@@ -4595,7 +4566,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "id": "easo-eco2027-travel-grants",
    "name": "EASO Travel Grants for ECO2027",
    "provider": "European Association for the Study of Obesity (EASO)",
@@ -4642,7 +4613,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "id": "eera-ecer-2027-erc-bursaries",
    "name": "ECER 2027 Conference Bursaries (Emerging Researchers' Conference)",
    "provider": "European Educational Research Association (EERA)",
@@ -4685,7 +4656,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "id": "ecso-cms-2027-phd-grants",
    "name": "ECSO–CMS 2027 Travel & Attendance Grants for PhD Students",
    "provider": "ECSO–CMS 2027 organisers (sponsored by STOR-i, Lancaster University)",
@@ -4729,7 +4700,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "id": "aps-gfb-damop-2027-travel",
    "name": "APS GFB Travel Awards – DAMOP 2027",
    "provider": "American Physical Society – Topical Group on Few-Body Systems (GFB)",
@@ -4774,7 +4745,7 @@
    "type_label": "Conference travel",
    "url_checked": true,
    "verification": "official",
-   "checked": "2026-11-11",
+   "checked": "2026-11-13",
    "id": "aps-braslau-travel-grant",
    "name": "APS Braslau Family Travel Grant – Global Physics Summit",
    "provider": "American Physical Society (APS)",
@@ -4855,7 +4826,7 @@
    "type_label": "Fieldwork",
    "status_label": "Opens soon (recurring)",
    "url_checked": true,
-   "checked": "2026-11-11"
+   "checked": "2026-11-13"
   },
   {
    "id": "unu-wider-visiting-phd-fellowship",
@@ -4898,7 +4869,7 @@
    "type_label": "Research stay",
    "status_label": "Opens soon (recurring)",
    "url_checked": true,
-   "checked": "2026-11-11"
+   "checked": "2026-11-13"
   },
   {
    "id": "iiasa-yssp",
@@ -4944,7 +4915,7 @@
    "type_label": "Research stay",
    "status_label": "Open now",
    "url_checked": true,
-   "checked": "2026-11-11"
+   "checked": "2026-11-13"
   },
   {
    "id": "nai-african-scholarship-programme",
@@ -5060,7 +5031,7 @@
     "note": "At least 3 years of advanced graduate study in a related field, or 5 years of relevant professional or activist experience"
    },
    "host": "Okayama University, Japan, 29 Jun to 1 Jul 2027 (before the IAFFE conference)",
-   "amount": "not stated",
+   "amount": "Free participation; visa, transport, accommodation and meals covered",
    "covers": "Free participation; selected participants get support for visa, transport, accommodation and meals",
    "payment": "varies",
    "membership": "not stated",
@@ -5081,7 +5052,7 @@
    "type_label": "Conference travel",
    "status_label": "Open now",
    "url_checked": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-13"
   },
   {
    "id": "sfaa-student-travel-awards",
@@ -5125,7 +5096,7 @@
    "type_label": "Conference travel",
    "status_label": "Open now",
    "url_checked": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-13"
   },
   {
    "id": "rgs-ibg-postgraduate-research-awards",
@@ -5169,7 +5140,7 @@
    "type_label": "Fieldwork",
    "status_label": "Open now",
    "url_checked": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-13"
   },
   {
    "id": "apf-henry-david-international-travel",
@@ -5204,16 +5175,16 @@
     2
    ],
    "next_deadline": "2027-02-12",
-   "status": "upcoming",
+   "status": "open",
    "dev_priority": false,
    "url": "https://apf.apa.org/funding/david-international-travel/",
    "verification": "official",
    "notes": "Only one grant a year, and PhD students compete with early-career researchers. You need an interest in reproductive health or population topics.",
    "evidence": "February 12, 2027",
    "type_label": "Conference travel",
-   "status_label": "Opens soon (recurring)",
+   "status_label": "Open now",
    "url_checked": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-13"
   },
   {
    "id": "sssp-lee-student-support-fund",
@@ -5258,7 +5229,7 @@
    "type_label": "Conference travel",
    "status_label": "Opens soon (recurring)",
    "url_checked": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-13"
   },
   {
    "id": "msa-dauverd-doctoral-travel-grant",
@@ -5300,7 +5271,7 @@
    "type_label": "Fieldwork",
    "status_label": "Opens soon (recurring)",
    "url_checked": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-13"
   },
   {
    "id": "asa-taha-student-travel-award",
@@ -5345,7 +5316,7 @@
    "type_label": "Small grant",
    "status_label": "Opens soon (recurring)",
    "url_checked": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-13"
   },
   {
    "id": "acasa-early-dissertation-research-grant",
@@ -5388,7 +5359,7 @@
    "type_label": "Small grant",
    "status_label": "Opens soon (recurring)",
    "url_checked": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-13"
   },
   {
    "id": "eaie-doctoral-research-grant",
@@ -5476,6 +5447,295 @@
    "status_label": "Recurring – watch for next call",
    "url_checked": true,
    "checked": "2026-11-12"
+  },
+  {
+   "id": "slas-latin-american-scholars-grant",
+   "name": "SLAS Latin American Scholars Grant",
+   "provider": "Society for Latin American Studies (SLAS, UK)",
+   "type": "conference_travel",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "Latin American studies (all humanities and social science disciplines)"
+   ],
+   "nat_rule": {
+    "type": "region",
+    "values": [
+     "Latin America"
+    ],
+    "note": "Based on residence, not nationality: scholars based in Latin America, confirmed by address and institutional affiliation."
+   },
+   "enrol_rule": {
+    "type": "region",
+    "values": [
+     "Latin America"
+    ],
+    "note": "PhD students, independent researchers and university-affiliated scholars based in Latin America; up to two awards reserved for early-career scholars."
+   },
+   "host": "SLAS annual conference 2027, UK (venue not stated on grant page)",
+   "amount": "Usually ten awards of up to GBP 1,750 each",
+   "covers": "Conference registration, travel and accommodation; caring-related costs can be included. Does not cover full costs.",
+   "payment": "upfront",
+   "membership": "Not required to apply, but an SLAS member (not the applicant) must support the application",
+   "recurrence": "Annual (tied to the SLAS annual conference)",
+   "window": "Open until 27 November 2026",
+   "months": [
+    11
+   ],
+   "next_deadline": "2026-11-27",
+   "status": "open",
+   "dev_priority": true,
+   "url": "https://www.slasuk.org/latinamericanscholarsgrants",
+   "notes": "You must attend in person, present a paper and register for both conference days. An existing SLAS member must support your application.",
+   "evidence": "27 November 2026",
+   "type_label": "Conference travel",
+   "status_label": "Open now",
+   "url_checked": true,
+   "verification": "official",
+   "checked": "2026-11-13"
+  },
+  {
+   "id": "ngc-student-grant-program",
+   "name": "Neotropical Grassland Conservancy Student Grant Program",
+   "provider": "Neotropical Grassland Conservancy (NGC)",
+   "type": "fieldwork",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "conservation-related research (judged on commitment to conservation and fit with NGC's mission)"
+   ],
+   "nat_rule": {
+    "type": "region",
+    "values": [
+     "Latin America"
+    ],
+    "note": "Latin American students only."
+   },
+   "enrol_rule": {
+    "type": "list",
+    "values": [
+     "United States",
+     "South America"
+    ],
+    "note": "Must be enrolled in an M.S. or Ph.D. programme at a US or South American university."
+   },
+   "host": "Student's own field site (not stated)",
+   "amount": "USD 1,500 single allotment",
+   "covers": "Basic research needs: transportation, lodging, meals and consumable field supplies",
+   "payment": "upfront",
+   "membership": "not stated",
+   "recurrence": "Three deadlines a year",
+   "window": "Deadlines 1 April, 1 August and 1 December",
+   "months": [
+    4,
+    8,
+    12
+   ],
+   "next_deadline": "2026-12-01",
+   "status": "open",
+   "dev_priority": true,
+   "url": "https://conservegrassland.org/our-programs/",
+   "notes": "The grant is small and paid in a single disbursement to a bank account. A year-end report is required, and filing it makes you eligible for further funding.",
+   "evidence": "APPLICATION DEADLINE: April 1st, August 1st, and December 1st",
+   "type_label": "Fieldwork",
+   "status_label": "Open now",
+   "url_checked": true,
+   "verification": "official",
+   "checked": "2026-11-13"
+  },
+  {
+   "id": "nbc-conservation-awards",
+   "name": "Neotropical Birding & Conservation (NBC) Conservation Fund CAP Grants",
+   "provider": "Neotropical Birding & Conservation (formerly Neotropical Bird Club)",
+   "type": "fieldwork",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "bird conservation and conservation research (globally threatened species or globally important sites)"
+   ],
+   "nat_rule": {
+    "type": "region",
+    "values": [
+     "Caribbean",
+     "Middle America",
+     "South America"
+    ],
+    "note": "Nationals and/or residents of Neotropical countries."
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Students are not excluded; the Council 'will consider applications that contribute directly to an academic qualification', taking other funding sources into account."
+   },
+   "host": "Project site in the Neotropics",
+   "amount": "Up to USD 3,000",
+   "covers": "Direct conservation action or conservation research",
+   "payment": "varies",
+   "membership": "not stated",
+   "recurrence": "Twice yearly",
+   "window": "Deadlines 1 February and 1 July; optional synopses at least three weeks before",
+   "months": [
+    2,
+    7
+   ],
+   "next_deadline": "2027-02-01",
+   "status": "upcoming",
+   "dev_priority": true,
+   "url": "https://neotropicalbirdingandconservation.org/conservation/",
+   "notes": "The project must target IUCN-listed globally threatened birds or globally important sites; species threatened only nationally do not qualify. The grant is not student-specific, so thesis projects compete with other conservation projects.",
+   "evidence": "deadlines on 1st February and 1st July",
+   "type_label": "Fieldwork",
+   "status_label": "Opens soon (recurring)",
+   "url_checked": true,
+   "verification": "official",
+   "checked": "2026-11-13"
+  },
+  {
+   "id": "stri-short-term-fellowships",
+   "name": "STRI Short-Term Fellowships",
+   "provider": "Smithsonian Tropical Research Institute (STRI)",
+   "type": "research_stay",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "tropical biology and related research supervised by STRI staff"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "No nationality restriction stated."
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "Mainly graduate students; occasional undergraduates and postdocs."
+   },
+   "host": "STRI, Panama",
+   "amount": "USD 1,250/month stipend (USD 3,750 total) plus research allowance up to USD 2,000",
+   "covers": "Living stipend, research allowance, round-trip coach airfare; partial awards sometimes given",
+   "payment": "stipend",
+   "membership": "not stated",
+   "recurrence": "Three deadlines a year",
+   "window": "Deadlines 15 February, 15 June and 15 October",
+   "months": [
+    2,
+    6,
+    10
+   ],
+   "next_deadline": "2027-02-15",
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://stri.si.edu/academic-programs/fellowships",
+   "notes": "Three-month stay; contact the STRI staff scientist you want to work with first to confirm they can advise you. Undergraduates and postdocs can also apply.",
+   "evidence": "February 15, June 15 and October 15",
+   "type_label": "Research stay",
+   "status_label": "Opens soon (recurring)",
+   "url_checked": true,
+   "verification": "official",
+   "checked": "2026-11-13"
+  },
+  {
+   "id": "ots-graduate-research-fellowships",
+   "name": "OTS Graduate Research Fellowships (incl. Hovore-Horn for Latin American students)",
+   "provider": "Organization for Tropical Studies (OTS)",
+   "type": "fieldwork",
+   "levels": [
+    "MSc",
+    "PhD"
+   ],
+   "fields": [
+    "tropical biology / ecology; Hovore-Horn: entomology"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "Most fellowships state no nationality rule; Hovore-Horn is exclusively for Latin American students; Tyson is for US and Latin American students."
+   },
+   "enrol_rule": {
+    "type": "list",
+    "values": [
+     "OTS member institutions"
+    ],
+    "note": "Graduate students enrolled at OTS member institutions, or OTS graduate course alumni."
+   },
+   "host": "OTS field stations in Costa Rica (La Selva, Palo Verde, Las Cruces); one annual Peru award; Hovore-Horn usable in any Latin American country",
+   "amount": "Station costs for up to 30 nights (pilot) or 60 days (thesis) plus USD 150-200 permit/export support; Hovore-Horn typically USD 500-1,000 (max USD 1,500)",
+   "covers": "Field station stay for fellow and field assistant, permit and export services; excludes international and local travel and equipment",
+   "payment": "varies",
+   "membership": "Institutional: applicant's university must be an OTS member (or applicant must be an OTS course alumnus)",
+   "recurrence": "Rolling",
+   "window": "Applications accepted year-round; submit 3-4 months before the visit",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "next_deadline": null,
+   "status": "rolling",
+   "dev_priority": false,
+   "url": "https://tropicalstudies.org/portfolio/graduate-research-fellowships/",
+   "notes": "Only for students at OTS member institutions or OTS course alumni. Awards mostly cover field-station costs, not travel.",
+   "evidence": "We are receiving applications all year-long.",
+   "type_label": "Fieldwork",
+   "status_label": "Rolling / year-round",
+   "url_checked": true,
+   "verification": "official",
+   "checked": "2026-11-13"
+  },
+  {
+   "id": "ibro-neuroscience-training-grants",
+   "name": "IBRO Neuroscience Training Grants (courses and schools)",
+   "provider": "International Brain Research Organization (IBRO)",
+   "type": "small_grant",
+   "levels": [
+    "PhD"
+   ],
+   "fields": [
+    "neuroscience"
+   ],
+   "nat_rule": {
+    "type": "any",
+    "note": "International; the maximum amount depends on the IBRO region of residence (Latin America max USD 3,000)."
+   },
+   "enrol_rule": {
+    "type": "any",
+    "note": "PhD students and postdocs within 5 years of their first postdoc; MSc not mentioned."
+   },
+   "host": "Any neuroscience course or school (not IBRO-supported schools, which take direct applications)",
+   "amount": "Up to USD 3,000 (Latin America); Africa 5,000; Pan-Europe 4,500; US/Canada 4,000; Asia-Pacific 3,000",
+   "covers": "Course registration fees, course-related travel and local expenses; not conferences or lab exchange stays",
+   "payment": "varies",
+   "membership": "not stated",
+   "recurrence": "Twice a year",
+   "window": "Last round 15 Sep - 31 Oct 2026 (closed); next round opens April 2027 for courses starting 1 Jul - 31 Dec 2027",
+   "months": [
+    4,
+    9,
+    10
+   ],
+   "next_deadline": null,
+   "status": "upcoming",
+   "dev_priority": false,
+   "url": "https://ibro.org/grant/neuroscience-training-grants/",
+   "notes": "Payment is 80% two months before the course and 20% after the certificate and report. The April 2027 closing date is not yet published.",
+   "evidence": "The next round of applications will open in April 2027",
+   "type_label": "Small grant",
+   "status_label": "Opens soon (recurring)",
+   "url_checked": true,
+   "verification": "official",
+   "checked": "2026-11-13"
   }
  ],
  "excluded": [
@@ -5593,6 +5853,31 @@
    "name": "SSSP Transnational Initiatives Fund",
    "reason": "Students excluded (sent to the Lee Student Support Fund)",
    "url": "https://www.sssp1.org/"
+  },
+  {
+   "name": "CODESRIA Small Grants Programme for Thesis Writing",
+   "reason": "Dormant: official page describes the programme only in the past tense; no call found since about 2016",
+   "url": "https://codesria.org/grants-fellowships/"
+  },
+  {
+   "name": "Fundación Carolina short stays / scholarships",
+   "reason": "Short stays require a doctorate; other awards are full degree scholarships",
+   "url": "https://www.fundacioncarolina.es/"
+  },
+  {
+   "name": "OEI Jaime Torres Bodet – Paulo Freire mobility",
+   "reason": "Mexican undergraduate teacher-training students only",
+   "url": "https://oei.int/"
+  },
+  {
+   "name": "SLAS Postgraduate Research Support Grants",
+   "reason": "Only for UK-based SLAS members",
+   "url": "https://www.slasuk.org/"
+  },
+  {
+   "name": "CAPES PDSE (Doutorado-Sanduíche no Exterior)",
+   "reason": "Only for students enrolled at Brazilian institutions (national programme, not open internationally)",
+   "url": "https://www.gov.br/capes/"
   }
  ],
  "discovery_feeds": [
