@@ -3,6 +3,42 @@
  "channel": "https://whatsapp.com/channel/0029VbDYQnI6BIEkiEFVW30o",
  "posts": [
   {
+   "date": "2026-11-22",
+   "title": "Maastricht University NL-High Potential Scholarship 2027-28",
+   "provider": "Maastricht University",
+   "destination": "Netherlands",
+   "level": "Master's (1-2 years)",
+   "funding": "Full tuition waiver, EUR 20,150-38,750 living allowance, and insurance",
+   "eligible": "Non-EU/EEA/Swiss/Surinamese nationals aged 35 or under, GPA 7.5/10+, no prior Dutch degree enrolment",
+   "deadline": "2026-12-10",
+   "deadline_note": "Scholarship form due 1 Feb 2027",
+   "verified_on": "2026-11-22"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "ComplexCité Two-Year Postdoctoral Fellowships 2027",
+   "provider": "Université Paris Cité (ComplexCité)",
+   "destination": "France",
+   "level": "Postdoctoral",
+   "funding": "Approx. EUR 2,500/mo net + insurance (2 yrs)",
+   "eligible": "PhD holders worldwide with host supervisor",
+   "deadline": "2026-12-18",
+   "deadline_note": "3rd Call (2027)",
+   "verified_on": "2026-11-21"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "University of Sydney RTP International Scholarship 2027",
+   "provider": "University of Sydney",
+   "destination": "Australia",
+   "level": "Master's by Research, PhD",
+   "funding": "Full tuition, AUD $44,293/yr stipend, OSHC, relocation",
+   "eligible": "International students (all nationalities)",
+   "deadline": "2026-12-18",
+   "deadline_note": "Research Period 3 & 4, 2027",
+   "verified_on": "2026-11-20"
+  },
+  {
    "date": "2026-11-19",
    "title": "SI Scholarship for Global Professionals 2027-28",
    "provider": "Swedish Institute (Sweden)",
